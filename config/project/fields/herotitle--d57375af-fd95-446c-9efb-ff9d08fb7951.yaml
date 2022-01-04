@@ -1,0 +1,19 @@
+columnSuffix: skryzifl
+contentColumnType: text
+fieldGroup: dcb8c327-7be6-4722-a756-439adbc78f92 # Homepage
+handle: herotitle
+instructions: ''
+name: 'Hero title'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText
