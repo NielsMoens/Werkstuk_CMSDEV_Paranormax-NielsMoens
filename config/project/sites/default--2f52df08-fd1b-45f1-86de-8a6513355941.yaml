@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: en
+name: paranormax
+primary: true
+siteGroup: 9e77f2bb-3de8-4c3e-b6bb-31e5367c9adc # paranormax
+sortOrder: 1

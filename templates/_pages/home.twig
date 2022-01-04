@@ -1,0 +1,45 @@
+{#{% extends "_layouts/site" %}#}
+
+{#{% block content %}#}
+{#{% set image = entry.heroImage.one() %}#}
+
+
+{#    <section class="hero" style="background-image: url('{{ image.url }}')">#}
+{#        <div class="hero__content content-column">#}
+{#            <h1>{{entry.heroTitle}}</h1>#}
+{#        </div>#}
+{#    </section>#}
+
+{#    {% include "_includes/components/featuredStory" with {#}
+{#        featured: entry.featuredStory.one()#}
+{#    } %}#}
+
+
+{#    <section class="section section--more-padding section--light section--angled-top">#}
+{#        <div class="content-column centered">#}
+{#          {{ entry.ridersIntro }}#}
+
+{#            <div class="flex-columns">#}
+
+{#            {% for rider in entry.riders %}#}
+
+{#            {% set avatar = rider.image.one() %}#}
+{#            {% set cropSettings = {#}
+{#                mode: 'crop',#}
+{#                width: 250,#}
+{#                height: 250,#}
+{#                quality: 80#}
+{#            } %}#}
+
+{#                <div class="flex-columns__item">#}
+{#                    {{ dump( avatar.getUrl()) }}#}
+{#                    <img src="{{ avatar.getUrl(cropSettings) }}" alt="{{ avatar.title }}" class="flex-columns__image" />#}
+{#                    <h4>{{ rider.fullName }}</h4>#}
+{#                    <p>{{ rider.description }}</p>#}
+{#                </div>#}
+{#            {% endfor %}#}
+{#            </div>#}
+{#        </div>#}
+{#    </section>#}
+
+{#{% endblock %}#}

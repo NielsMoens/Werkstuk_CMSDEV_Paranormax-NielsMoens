@@ -1,0 +1,34 @@
+{#{% extends "_layouts/site" %}#}
+
+{#{% block content %}#}
+
+{#<section class="section">#}
+{#    <div class="content-column">#}
+{#        <h1 class="centered">{{ entry.title }}</h1>#}
+
+{#        <div class="two-columns">#}
+{#        {% set stories = craft.entries.section('stories').all %}#}
+{#            {% for story in stories %}#}
+{#            <div class="two-columns__item"> p#}
+{#                <div class="two-columns__content">#}
+{#                    <h2>{{ story.title }}</h2>#}
+{#                    <p>{{ story.shortDescription }}</p>#}
+{#                    <p>#}
+{#                        <a href="{{ story.url }}" class="cta-link">{{ "Discover the full story"|t }}</a>#}
+{#                    </p>#}
+{#                </div>#}
+
+{#                <div class="two-columns__image">#}
+{#                    {% set image = story.slider.one() %}#}
+
+{#                    <img src="{{ image.getUrl({width: 750}) }}" alt="{{ image.title }}" />#}
+{#                </div>#}
+{#            </div>#}
+{#            {% endfor %}#}
+{#        </div>#}
+{#    </div>#}
+{#</section>#}
+
+{#{% endblock %}#}
+
+
