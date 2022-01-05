@@ -1,13 +1,13 @@
-columnSuffix: skryzifl
-contentColumnType: text
+columnSuffix: kjujqrij
+contentColumnType: string(120)
 fieldGroup: dcb8c327-7be6-4722-a756-439adbc78f92 # Home
-handle: heroTitle
+handle: heroButton
 instructions: ''
-name: 'Hero title'
+name: heroButton
 searchable: false
 settings:
   byteLimit: null
-  charLimit: null
+  charLimit: 30
   code: ''
   columnType: null
   initialRows: '4'

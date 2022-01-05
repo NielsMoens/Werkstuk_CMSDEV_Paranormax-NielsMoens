@@ -40,6 +40,24 @@ fieldLayouts:
             warning: null
             width: 100
           -
+            fieldUid: 752f07aa-c77b-4050-970d-0ac239ce6c80 # Hero subtitle
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 28542e01-2582-4ce2-8f19-4bce5e2d7c14 # heroButton
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
             fieldUid: c39d048e-aca2-45c9-809c-421d40bf94c4 # Hero image
             instructions: null
             label: null
@@ -50,6 +68,59 @@ fieldLayouts:
             width: 100
         name: Hero
         sortOrder: 2
+      -
+        elements:
+          -
+            fieldUid: 123bac14-df85-4366-a03e-b91aa658b351 # Mediums Intro
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 88afba06-2ca9-4b5c-91e8-34bb4e343b19 # Mediums
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Mediums
+        sortOrder: 3
+      -
+        elements:
+          -
+            fieldUid: f8189118-620a-43f9-90a8-ef38b4f1a021 # About Title 
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: c8305c00-1df8-4bd2-9257-2a1ea3f15de0 # AboutIntro
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 0a559508-6b03-4139-8f98-19c82aaf7325 # About Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: About
+        sortOrder: 4
 handle: homepage
 hasTitleField: false
 name: Homepage

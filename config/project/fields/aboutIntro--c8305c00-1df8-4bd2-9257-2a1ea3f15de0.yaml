@@ -1,0 +1,29 @@
+columnSuffix: wmpbowcd
+contentColumnType: text
+fieldGroup: b9ea63f3-6f07-4bf8-9b3c-794d00de390a # About
+handle: aboutIntro
+instructions: ''
+name: AboutIntro
+searchable: false
+settings:
+  availableTransforms: '*'
+  availableVolumes:
+    - 89a77c27-74a4-4733-84cc-fb1bba1fe585 # Uploads
+  cleanupHtml: true
+  columnType: text
+  configSelectionMode: choose
+  defaultTransform: ''
+  manualConfig: ''
+  purifierConfig: ''
+  purifyHtml: '1'
+  redactorConfig: ''
+  removeEmptyTags: '1'
+  removeInlineStyles: '1'
+  removeNbsp: '1'
+  showHtmlButtonForNonAdmins: ''
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  uiMode: enlarged
+translationKeyFormat: null
+translationMethod: none
+type: craft\redactor\Field

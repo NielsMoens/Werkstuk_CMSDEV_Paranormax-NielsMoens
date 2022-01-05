@@ -1,9 +1,9 @@
-columnSuffix: skryzifl
+columnSuffix: vdxccojq
 contentColumnType: text
 fieldGroup: dcb8c327-7be6-4722-a756-439adbc78f92 # Home
-handle: heroTitle
+handle: heroSubtitle
 instructions: ''
-name: 'Hero title'
+name: 'Hero subtitle'
 searchable: false
 settings:
   byteLimit: null
