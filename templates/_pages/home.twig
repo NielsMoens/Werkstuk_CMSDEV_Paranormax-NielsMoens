@@ -1,7 +1,7 @@
 {% extends "_layouts/site" %}
 
 {% block content %}
-
+{#    Header#}
     {% set image =  entry.heroImage.one() %}
     <section class="site-hero overlay" data-stellar-background-ratio="0.5" style="background-image: url({{ image.url }});">
         <div class="container">
@@ -19,29 +19,24 @@
             </div>
         </div>
     </section>
-    <!-- END section -->
 
 {#    about us #}
+    {% set aboutimage =  entry.aboutImage.one() %}
     <section class="site-section bg-light">
         <div class="container">
             <div class="row justify-content-center mb-5">
                 <div class="col-md-7 text-center">
-                    <h2>We Share Our Thoughts</h2>
-                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum magnam illum maiores adipisci pariatur, eveniet.</p>
+                    {{ entry.aboutTitle }}
                 </div>
             </div>
 
             <div class="row mb-5 align-items-center">
-
                 <div class="col-md-6 overflow order-1">
-                    <img src="images/img_1.jpg" alt="" class="img-fluid">
+                    <img src="{{ aboutimage.url }}" alt="" class="img-fluid">
                 </div>
                 <div class="col-md-1 order-2"></div>
                 <div class="col-md-5 order-3">
-                    <h2 class="mb-4">First, We Love To Teach</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur reprehenderit laboriosam, eius ipsa consequuntur eos. Nulla dolorem repudiandae mollitia distinctio eos pariatur dolores, voluptate impedit. Eaque quos, sapiente ipsum possimus.</p>
-                    <p>Odio ducimus id vero tempora eaque rem voluptatibus tempore sequi ea quod, odit commodi voluptas! Nesciunt dolorum ea repudiandae. Officia eos impedit sapiente tempore, a dolore minus eaque culpa facere.</p>
-                    <p>Qui dolore quaerat expedita fugiat aperiam consequatur pariatur quod perspiciatis alias magni, recusandae esse dolorem beatae commodi quo labore earum harum odio voluptatibus non, error perferendis at delectus. Ab, amet.</p>
+                    {{ entry.aboutIntro }}
                 </div>
 
             </div>
@@ -50,6 +45,7 @@
         </div>
     </section>
 
+{#    Mediums#}
     <section class="site-section">
         <div class="container">
             <div class="row justify-content-center mb-5">
@@ -81,7 +77,6 @@
             </section>
         </div>
     </section>
-    <!-- END section -->
 
     <section class="section-cover" data-stellar-background-ratio="0.5" style="background-image: url({{ siteUrl }}assets/images/big_image_3.jpg);">
         <div class="container">
@@ -97,61 +92,6 @@
     <!-- END section -->
 
 
-    <section class="site-section bg-light">
-        <div class="container">
-            <div class="row justify-content-center mb-5">
-                <div class="col-md-7 text-center">
-                    <h2>Top Courses</h2>
-                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum magnam illum maiores adipisci pariatur, eveniet.</p>
-                </div>
-            </div>
-            <div class="row top-course">
-                <div class="col-lg-2 col-md-4 col-sm-6 col-12">
-                    <a href="#" class="course">
-                        <img src="images/webdesign.jpg" alt="Image placeholder">
-                        <h2>Web Design 101</h2>
-                        <p>Enroll Now</p>
-                    </a>
-                </div>
-                <div class="col-lg-2 col-md-4 col-sm-6 col-12">
-                    <a href="#" class="course">
-                        <img src="images/wordpress.jpg" alt="Image placeholder">
-                        <h2>Learn How To Develop WordPress Plugin</h2>
-                        <p>Enroll Now</p>
-                    </a>
-                </div>
-                <div class="col-lg-2 col-md-4 col-sm-6 col-12">
-                    <a href="#" class="course">
-                        <img src="images/javascript.jpg" alt="Image placeholder">
-                        <h2>JavaScript 101</h2>
-                        <p>Enroll Now</p>
-                    </a>
-                </div>
-                <div class="col-lg-2 col-md-4 col-sm-6 col-12">
-                    <a href="#" class="course">
-                        <img src="images/photoshop.jpg" alt="Image placeholder">
-                        <h2>Photoshop Design 101</h2>
-                        <p>Enroll Now</p>
-                    </a>
-                </div>
-                <div class="col-lg-2 col-md-4 col-sm-6 col-12">
-                    <a href="#" class="course">
-                        <img src="images/reactjs.jpg" alt="Image placeholder">
-                        <h2>Learn Native ReactJS</h2>
-                        <p>Enroll Now</p>
-                    </a>
-                </div>
-                <div class="col-lg-2 col-md-4 col-sm-6 col-12">
-                    <a href="#" class="course">
-                        <img src="images/angularjs.jpg" alt="Image placeholder">
-                        <h2>Learn AngularJS 2</h2>
-                        <p>Enroll Now</p>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- END section -->
 
 
 {% endblock %}
