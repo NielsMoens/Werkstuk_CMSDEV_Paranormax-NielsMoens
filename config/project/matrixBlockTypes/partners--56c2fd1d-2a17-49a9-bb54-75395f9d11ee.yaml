@@ -23,7 +23,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 0d7eb751-fa4e-49c0-a085-68880412e022 # logo
+            fieldUid: 0d7eb751-fa4e-49c0-a085-68880412e022 # Partner Log
             instructions: null
             label: null
             required: false
@@ -34,13 +34,13 @@ fieldLayouts:
         name: Content
         sortOrder: 1
 fields:
-  0d7eb751-fa4e-49c0-a085-68880412e022: # logo
+  0d7eb751-fa4e-49c0-a085-68880412e022: # Partner Log
     columnSuffix: null
     contentColumnType: string
     fieldGroup: null
-    handle: logo
+    handle: partnerLogo
     instructions: ''
-    name: logo
+    name: 'Partner Log'
     searchable: false
     settings:
       allowSelfRelations: false
@@ -54,7 +54,7 @@ fields:
       previewMode: full
       restrictFiles: '1'
       selectionLabel: ''
-      showSiteMenu: false
+      showSiteMenu: true
       showUnpermittedFiles: false
       showUnpermittedVolumes: false
       singleUploadLocationSource: 'volume:89a77c27-74a4-4733-84cc-fb1bba1fe585' # Uploads
