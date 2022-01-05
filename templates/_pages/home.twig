@@ -38,10 +38,7 @@
                 <div class="col-md-5 order-3">
                     {{ entry.aboutIntro }}
                 </div>
-
             </div>
-
-
         </div>
     </section>
 
@@ -50,27 +47,28 @@
         <div class="container">
             <div class="row justify-content-center mb-5">
                 <div class="col-md-7 text-center">
-                   {{ entry.mediumsIntro }}
+                    <h2>Mediums</h2>
                 </div>
             </div>
             <section class="school-features text-dark d-flex">
                 <div class="inner">
-                    {% for medium in entry.mediums%}
-
-                        {% set avatar = medium.image.one() %}
+                    {% set mediums = craft.entries.section('mediums').all %}
+                    {% for medium in mediums %}
+                        {% set img = medium.mediumImage.one() %}
                         {% set cropSettings = {
                             mode: 'crop',
                             width: 250,
                             height: 250,
                             quality: 80
                         } %}
-
                         <div class="media d-block feature text-center">
-                            <img src="{{ avatar.getUrl(cropSettings) }}" alt="Image placeholder" class="mb-3">
+                            <img src="{{ img.getUrl(cropSettings) }}" alt="Image placeholder" class="mb-3">
                             <div class="media-body">
-                                <h3 class="mt-0">{{ medium.fullName }}</h3>
-                                <p>{{medium.description}}</p>
+                                <h3 class="mt-0">{{ medium.title }}</h3>
+                                <p>{{medium.mediumDescription}}</p>
                             </div>
+                            <a href="{{ medium.url }}" class="course">Learn more ...<a/>
+
                         </div>
                     {% endfor %}
                 </div>
@@ -86,9 +84,7 @@
                    {{ entry.socialsIntro }}
                     <div class="row top-course">
                         {% for social in entry.socials%}
-
                         {% set thumbnail = social.socialImage.one() %}
-
                         {% set cropSettings = {
                             mode: 'crop',
                             width: 250,

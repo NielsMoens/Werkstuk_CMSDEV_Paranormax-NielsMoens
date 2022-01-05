@@ -71,7 +71,7 @@ fieldLayouts:
       -
         elements:
           -
-            fieldUid: 123bac14-df85-4366-a03e-b91aa658b351 # Mediums Intro
+            fieldUid: 123bac14-df85-4366-a03e-b91aa658b351
             instructions: null
             label: null
             required: false
@@ -80,7 +80,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 88afba06-2ca9-4b5c-91e8-34bb4e343b19 # Mediums
+            fieldUid: 88afba06-2ca9-4b5c-91e8-34bb4e343b19
             instructions: null
             label: null
             required: false

@@ -1,0 +1,24 @@
+defaultPlacement: end
+enableVersioning: true
+handle: mediums
+name: Mediums
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  2f52df08-fd1b-45f1-86de-8a6513355941: # paranormax
+    enabledByDefault: true
+    hasUrls: true
+    template: mediums/_entry
+    uriFormat: 'mediums/{slug}'
+type: channel
