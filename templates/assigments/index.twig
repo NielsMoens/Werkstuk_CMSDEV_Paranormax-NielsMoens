@@ -1,37 +1,35 @@
-{#{% extends "_layouts/site" %}#}
+{% extends "_layouts/site" %}
 
-{#{% block content %}#}
+{% block content %}
+    <section class="site-section bg-light">
+        <div class="container">
+            <div class="row justify-content-center mb-5">
+                <div class="col-md-7 text-center">
+                    <h2>All Assigments</h2>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum magnam illum maiores adipisci pariatur, eveniet.</p>
+                </div>
+            </div>
+            <div class="row top-course">
+                {% set assigment = craft.entries.section('assigments').all %}
 
-{#<section class="section">#}
-{#    <div class="content-column">#}
-{#        <h1 class="centered">{{ entry.title }}</h1>#}
+                {% for assigment in assigment %}
 
-{#        <div class="two-columns">#}
-{#        {% set assigments = craft.entries.section('assigments').all %}#}
-{#            {% for story in assigments %}#}
-{#            <div class="two-columns__item"> p#}
-{#                <div class="two-columns__content">#}
-{#                    <h2>{{ story.title }}</h2>#}
-{#                    <p>{{ story.shortDescription }}</p>#}
-{#                    <p>#}
-{#                        <a href="{{ story.url }}" class="cta-link">{{ "Discover the full story"|t }}</a>#}
-{#                    </p>#}
-{#                </div>#}
+                <div class="col-md-4 col-sm-6 col-12">
+                    <a href="{{ assigment.url }}" class="course">
+                        {% set img = assigment.mainImage.one() %}
+                        <img src="{{ img.getUrl({width: 750}) }}" alt=" {{ img.title }}">
+                        <h2>{{ assigment.title }}</h2>
+                        <p>Enroll Now</p>
+                    </a>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+{% endblock %}
 
-{#                <div class="two-columns__image">#}
-{#                    {% set image = story.slider.one() %}#}
 
-{#                    <img src="{{ image.getUrl({width: 750}) }}" alt="{{ image.title }}" />#}
-{#                </div>#}
-{#            </div>#}
-{#            {% endfor %}#}
-{#        </div>#}
-{#    </div>#}
-{#</section>#}
 
-{#{% endblock %}#}
-
-All assigments
 
 
 

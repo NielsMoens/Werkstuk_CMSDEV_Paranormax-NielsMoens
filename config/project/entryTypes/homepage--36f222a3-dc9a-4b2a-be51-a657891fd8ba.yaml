@@ -143,6 +143,28 @@ fieldLayouts:
             width: 100
         name: Socials
         sortOrder: 5
+      -
+        elements:
+          -
+            fieldUid: e2d2b645-10b9-42de-93d0-ce20320b878f # Intro
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 0419cb8c-c0a4-41b9-bd68-52b17382ebb4 # Partners
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Partners
+        sortOrder: 6
 handle: homepage
 hasTitleField: false
 name: Homepage

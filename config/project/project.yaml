@@ -1,4 +1,4 @@
-dateModified: 1641398470
+dateModified: 1641408673
 email:
   fromEmail: nielsmoens.dev@gmail.com
   fromName: paranormax
@@ -6,16 +6,19 @@ email:
 meta:
   __names__:
     0a559508-6b03-4139-8f98-19c82aaf7325: AboutImage # AboutImage
+    0d7eb751-fa4e-49c0-a085-68880412e022: logo # logo
     1f7e54e6-a0c3-4c13-9628-82f831ea8664: Date # Date
     2f52df08-fd1b-45f1-86de-8a6513355941: paranormax # paranormax
     3f2a0ec6-dde7-4cc8-9f9e-53b97721984d: 'Assigment Image' # Assigment Image
     5deff13c-64d0-4144-bb2a-312a4393745a: 'Social Image' # Social Image
     6d8e3673-e879-4c23-9bda-6277baa77d95: 'Full Name' # Full Name
     7b2086fd-9923-4004-a271-fd82dd752781: 'Main image' # Main image
+    08dfb538-829c-4b91-9e8a-a2a5fb05e527: Fullname # Fullname
     9e77f2bb-3de8-4c3e-b6bb-31e5367c9adc: paranormax # paranormax
     26c65efd-5ee8-452f-a8dc-a8c1ef35b9d8: Description # Description
     36f222a3-dc9a-4b2a-be51-a657891fd8ba: Homepage # Homepage
     055b4ea0-bead-4502-bef8-136324a6ed49: 'Short description' # Short description
+    56c2fd1d-2a17-49a9-bb54-75395f9d11ee: Partners # Partners
     74d6daf7-e2ed-4347-bbf2-bebe14ed7425: Footer # Footer
     76c62145-f4a9-48f9-8023-889655f124ee: 'Privacy Policy' # Privacy Policy
     88afba06-2ca9-4b5c-91e8-34bb4e343b19: Mediums # Mediums
@@ -23,6 +26,8 @@ meta:
     123bac14-df85-4366-a03e-b91aa658b351: 'Mediums Intro' # Mediums Intro
     275a2c43-f3fb-4d38-a696-8012131ff331: Default # Default
     306a9a21-248b-46d2-899f-070f6b159055: StatusSlider # StatusSlider
+    0338e864-2b3a-445b-91e2-ed798b9ba31b: General # General
+    0419cb8c-c0a4-41b9-bd68-52b17382ebb4: Partners # Partners
     752f07aa-c77b-4050-970d-0ac239ce6c80: 'Hero subtitle' # Hero subtitle
     753ee6e9-0d3e-4bbd-91dc-6593f9a5c2e0: Socials # Socials
     920ffc3d-58e8-40e2-a927-399517a452ba: 'Social link' # Social link
@@ -30,6 +35,7 @@ meta:
     28542e01-2582-4ce2-8f19-4bce5e2d7c14: heroButton # heroButton
     447027c2-9d54-4ee7-a3d4-31ca81a3ecb1: socials # socials
     868543fd-a092-4e33-9b3e-184bb8214998: footer # footer
+    a9c9fdac-1294-4d72-baf5-e282193b78d6: Partners # Partners
     a69e96c7-e41e-40d8-b130-c18b4572dc39: Image # Image
     a336ca38-fd77-4465-8172-7e76669ea403: Mediums # Mediums
     b9c68e31-af36-42a3-a6ef-ae929d803505: Assigments # Assigments
@@ -41,7 +47,9 @@ meta:
     ce98cc55-b67b-4086-a132-4af940e1aa99: 'Long Description' # Long Description
     d57375af-fd95-446c-9efb-ff9d08fb7951: 'Hero title' # Hero title
     dcb8c327-7be6-4722-a756-439adbc78f92: Home # Home
+    e2d2b645-10b9-42de-93d0-ce20320b878f: Intro # Intro
     e691f341-1d87-4695-ba4a-b2bd2d47cdd1: Socials # Socials
+    ebc68f43-f32f-496e-80e7-661e24c58290: 'Partner Link' # Partner Link
     ee654c2e-ccf3-4e37-95cd-43c47d4365af: 'Socials Intro ' # Socials Intro 
     ef98329f-cbaf-4fd1-b69d-27e839d414a7: Disclaimer # Disclaimer
     f401e857-8c7b-48ac-ada9-8f65ca666d4a: Homepage # Homepage
