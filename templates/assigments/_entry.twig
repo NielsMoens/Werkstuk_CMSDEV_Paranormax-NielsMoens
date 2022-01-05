@@ -12,7 +12,12 @@
                             <div class="col-md-8">
                                 <h1 class="mb-0">{{ entry.title }}</h1>
                                 <p>{{ entry.date|date("short") }}</p>
-                                <p>{{ entry.statusSlider}}</p>
+
+                                {% if entry.statusSlider == 1 %}
+                                    <p class="status" > In Progress </p>
+                                {% else %}
+                                    <p class="status" > Finished </p>
+                                {% endif %}
                                 <p class="lead mb-5">{{ entry.shortDescription }}</p>
                             </div>
                             <div class="col-md-4">

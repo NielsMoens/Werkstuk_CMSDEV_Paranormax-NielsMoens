@@ -6,6 +6,9 @@ body {
   line-height: 1.8;
   color: #6c757d;
 }
+.status {
+  text-decoration: underline;
+}
 
 a {
   -webkit-transition: .3s all ease;

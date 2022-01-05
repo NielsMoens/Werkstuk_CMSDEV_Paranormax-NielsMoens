@@ -83,15 +83,25 @@
         <div class="container">
             <div class="row justify-content-center align-items-center intro">
                 <div class="col-md-7 text-center element-animate">
-                    <h2>Socials</h2>
-                    <p class="lead mb-5"> adipisicing elit. Architecto quidem tempore expedita facere facilis, dolores!</p>
+                   {{ entry.socialsIntro }}
                     <div class="row top-course">
+                        {% for social in entry.socials%}
+
+                        {% set thumbnail = social.socialImage.one() %}
+
+
+                        {% set cropSettings = {
+                            mode: 'crop',
+                            width: 250,
+                            height: 250,
+                            quality: 80
+                        } %}
                         <div class="col-lg-2 col-md-4 col-sm-6 col-12">
-                            <a href="#" class="course">
-                                <img src="images/webdesign.jpg" alt="Image placeholder">
-                                <p>Enroll Now</p>
+                            <a href="{{ social.socialLink }}" class="course">
+                                <img src="{{ thumbnail.getUrl(cropSettings) }}" alt="Image placeholder">
                             </a>
                         </div>
+                        {% endfor %}
 
                     </div>
                 </div>
