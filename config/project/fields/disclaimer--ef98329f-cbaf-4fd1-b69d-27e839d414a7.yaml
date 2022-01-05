@@ -1,0 +1,19 @@
+columnSuffix: ykuekupb
+contentColumnType: text
+fieldGroup: 74d6daf7-e2ed-4347-bbf2-bebe14ed7425 # Footer
+handle: disclaimer
+instructions: ''
+name: Disclaimer
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '6'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

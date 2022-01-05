@@ -1,3 +1,28 @@
+fieldLayouts:
+  7504d1fe-a9fe-49af-b219-b8b1964847eb:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: ef98329f-cbaf-4fd1-b69d-27e839d414a7 # Disclaimer
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 76c62145-f4a9-48f9-8023-889655f124ee # Privacy Policy
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
 handle: footer
 name: footer
 sortOrder: 1
