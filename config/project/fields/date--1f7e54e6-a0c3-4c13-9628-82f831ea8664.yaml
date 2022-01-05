@@ -1,0 +1,17 @@
+columnSuffix: sptsycer
+contentColumnType: datetime
+fieldGroup: b9c68e31-af36-42a3-a6ef-ae929d803505 # Assigments
+handle: date
+instructions: ''
+name: Date
+searchable: false
+settings:
+  max: null
+  min: null
+  minuteIncrement: '30'
+  showDate: true
+  showTime: false
+  showTimeZone: false
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Date

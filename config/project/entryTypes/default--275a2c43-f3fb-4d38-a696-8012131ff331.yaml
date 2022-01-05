@@ -1,5 +1,5 @@
 fieldLayouts:
-  cc73cc53-42d0-4322-96ec-d6b6d3c46da4:
+  d9e8d342-deef-4b95-9dbb-ba009be50c10:
     tabs:
       -
         elements:
@@ -26,106 +26,67 @@ fieldLayouts:
             type: craft\fieldlayoutelements\EntryTitleField
             warning: null
             width: 100
+          -
+            fieldUid: 7b2086fd-9923-4004-a271-fd82dd752781 # Main image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 1f7e54e6-a0c3-4c13-9628-82f831ea8664 # Date
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 306a9a21-248b-46d2-899f-070f6b159055 # StatusSlider
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 3f2a0ec6-dde7-4cc8-9f9e-53b97721984d # Assigment Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 055b4ea0-bead-4502-bef8-136324a6ed49 # Short description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: ce98cc55-b67b-4086-a132-4af940e1aa99 # Long Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
         name: Content
         sortOrder: 1
-      -
-        elements:
-          -
-            fieldUid: d57375af-fd95-446c-9efb-ff9d08fb7951 # Hero title
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
-          -
-            fieldUid: 752f07aa-c77b-4050-970d-0ac239ce6c80 # Hero subtitle
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
-          -
-            fieldUid: 28542e01-2582-4ce2-8f19-4bce5e2d7c14 # heroButton
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
-          -
-            fieldUid: c39d048e-aca2-45c9-809c-421d40bf94c4 # Hero image
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
-        name: Hero
-        sortOrder: 2
-      -
-        elements:
-          -
-            fieldUid: 123bac14-df85-4366-a03e-b91aa658b351 # Mediums Intro
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
-          -
-            fieldUid: 88afba06-2ca9-4b5c-91e8-34bb4e343b19 # Mediums
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
-        name: Mediums
-        sortOrder: 3
-      -
-        elements:
-          -
-            fieldUid: f8189118-620a-43f9-90a8-ef38b4f1a021 # About Title 
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
-          -
-            fieldUid: c8305c00-1df8-4bd2-9257-2a1ea3f15de0 # AboutIntro
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
-          -
-            fieldUid: 0a559508-6b03-4139-8f98-19c82aaf7325 # AboutImage
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
-        name: About
-        sortOrder: 4
-handle: homepage
-hasTitleField: false
-name: Homepage
-section: f401e857-8c7b-48ac-ada9-8f65ca666d4a # Homepage
+handle: default
+hasTitleField: true
+name: Default
+section: c60eeba3-1524-4c73-b4e0-f26aa4d1957e # Assigments
 sortOrder: 1
-titleFormat: '{section.name|raw}'
+titleFormat: null
 titleTranslationKeyFormat: null
 titleTranslationMethod: site

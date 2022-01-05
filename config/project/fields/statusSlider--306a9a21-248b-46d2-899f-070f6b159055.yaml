@@ -1,0 +1,14 @@
+columnSuffix: apvgkjcf
+contentColumnType: boolean
+fieldGroup: b9c68e31-af36-42a3-a6ef-ae929d803505 # Assigments
+handle: statusSlider
+instructions: ''
+name: StatusSlider
+searchable: false
+settings:
+  default: true
+  offLabel: Finished
+  onLabel: 'In Progress'
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Lightswitch
