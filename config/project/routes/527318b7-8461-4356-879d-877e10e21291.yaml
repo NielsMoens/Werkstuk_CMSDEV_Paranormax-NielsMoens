@@ -1,0 +1,9 @@
+siteUid: null
+sortOrder: 20
+template: /forms/extras/suppress-edit-submissions
+uriParts:
+  - forms/extras/suppress-edit-submissions/edit/
+  -
+    - token
+    - \w+
+uriPattern: 'forms/extras/suppress-edit-submissions/edit/<token:\w+>'

@@ -1,0 +1,24 @@
+columnSuffix: apvgkjcf
+contentColumnType: string
+fieldGroup: b9c68e31-af36-42a3-a6ef-ae929d803505 # Assigments
+handle: assigmentStatus
+instructions: ''
+name: Status
+searchable: false
+settings:
+  allowLimit: false
+  allowMultipleSources: false
+  allowSelfRelations: false
+  branchLimit: '1'
+  limit: null
+  localizeRelations: false
+  selectionLabel: select
+  showSiteMenu: true
+  source: 'group:a2f0fc69-150d-4d85-b00e-cd0941c12caf' # Status Assigments
+  sources: '*'
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Categories

@@ -1,0 +1,41 @@
+defaultPlacement: end
+fieldLayouts:
+  e1b55664-8446-4af8-81a1-c6c7a2a0ca7d:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: ''
+            label: ''
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: statusAssigments
+name: 'Status Assigments'
+siteSettings:
+  2f52df08-fd1b-45f1-86de-8a6513355941: # paranormax
+    hasUrls: true
+    template: null
+    uriFormat: 'status-assigments/{slug}'
+structure:
+  maxLevels: null
+  uid: c424f9db-a6a6-493c-882c-2d0740e1f5d2

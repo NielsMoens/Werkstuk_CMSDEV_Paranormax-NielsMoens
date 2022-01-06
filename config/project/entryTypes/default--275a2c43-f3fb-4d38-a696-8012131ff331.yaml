@@ -45,7 +45,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 306a9a21-248b-46d2-899f-070f6b159055 # StatusSlider
+            fieldUid: 306a9a21-248b-46d2-899f-070f6b159055 # Status
             instructions: null
             label: null
             required: false
