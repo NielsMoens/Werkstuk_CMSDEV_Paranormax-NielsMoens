@@ -1,4 +1,4 @@
-dateModified: 1641431875
+dateModified: 1641437277
 email:
   fromEmail: paranormaxniels@gmail.com
   fromName: paranormax
@@ -13,30 +13,37 @@ meta:
   __names__:
     0a559508-6b03-4139-8f98-19c82aaf7325: AboutImage # AboutImage
     0d7eb751-fa4e-49c0-a085-68880412e022: 'Partner Log' # Partner Log
+    1bb081cd-1fe3-48f4-ba2a-5bd719085fe7: Contact # Contact
     1d516ff2-714f-46d2-9cb4-2f6df535a61c: New # New
     1f7e54e6-a0c3-4c13-9628-82f831ea8664: Date # Date
     2f52df08-fd1b-45f1-86de-8a6513355941: paranormax # paranormax
     3d2769a4-1306-4626-948f-8a4fb8096765: longDescription # longDescription
     3f2a0ec6-dde7-4cc8-9f9e-53b97721984d: 'Assigment Image' # Assigment Image
+    4e296877-0f99-46d4-b07b-6a609f42330f: 'Menu Item' # Menu Item
     5deff13c-64d0-4144-bb2a-312a4393745a: 'Social Image' # Social Image
     6d8e3673-e879-4c23-9bda-6277baa77d95: 'Full Name' # Full Name
+    7af331aa-cc01-4550-8588-9b1777047454: 'Assigments Listing' # Assigments Listing
     7b2086fd-9923-4004-a271-fd82dd752781: 'Main image' # Main image
     08dfb538-829c-4b91-9e8a-a2a5fb05e527: Fullname # Fullname
     9da56d12-3869-42e3-8b17-4e298c8b5f7f: 'Contact Form' # Contact Form
     9e77f2bb-3de8-4c3e-b6bb-31e5367c9adc: paranormax # paranormax
     26c65efd-5ee8-452f-a8dc-a8c1ef35b9d8: 'Short description' # Short description
     36f222a3-dc9a-4b2a-be51-a657891fd8ba: Homepage # Homepage
+    44a0bf88-00fb-4d84-b587-0b174836fe3c: header # header
+    44a2523a-0173-47b3-8361-4f45a256f4da: Contact # Contact
     055b4ea0-bead-4502-bef8-136324a6ed49: 'Short description' # Short description
     56c2fd1d-2a17-49a9-bb54-75395f9d11ee: Partners # Partners
     74d6daf7-e2ed-4347-bbf2-bebe14ed7425: Footer # Footer
     76c62145-f4a9-48f9-8023-889655f124ee: 'Privacy Policy' # Privacy Policy
     77d7adb5-9953-4236-b115-c50673563aea: New # New
+    87faf1ba-6b1d-4a19-aa60-42c7b98fb2e4: Menu # Menu
     89a77c27-74a4-4733-84cc-fb1bba1fe585: Uploads # Uploads
     89b15cc2-16c9-411c-a5e0-987b6b2b9639: Mediums # Mediums
     275a2c43-f3fb-4d38-a696-8012131ff331: Default # Default
     306a9a21-248b-46d2-899f-070f6b159055: Status # Status
     0338e864-2b3a-445b-91e2-ed798b9ba31b: General # General
     0419cb8c-c0a4-41b9-bd68-52b17382ebb4: Partners # Partners
+    748d1099-3ef0-4d54-b217-e8a613964436: 'Assigments Listing' # Assigments Listing
     752f07aa-c77b-4050-970d-0ac239ce6c80: 'Hero subtitle' # Hero subtitle
     753ee6e9-0d3e-4bbd-91dc-6593f9a5c2e0: Socials # Socials
     920ffc3d-58e8-40e2-a927-399517a452ba: 'Social link' # Social link
@@ -50,6 +57,7 @@ meta:
     a9c9fdac-1294-4d72-baf5-e282193b78d6: Partners # Partners
     a69e96c7-e41e-40d8-b130-c18b4572dc39: Image # Image
     a336ca38-fd77-4465-8172-7e76669ea403: Mediums # Mediums
+    accd3e2c-c7e6-42c7-86bb-63144e126227: destination # destination
     af96a360-e868-4b44-96c7-1f59862c15ac: New # New
     b00d2209-fc75-4d18-81e9-e911fb01b478: 'Medium description' # Medium description
     b9c68e31-af36-42a3-a6ef-ae929d803505: Assigments # Assigments
@@ -57,6 +65,7 @@ meta:
     ba1001c3-692c-411a-8318-cf158f47cf71: 'MediumSkills ' # MediumSkills 
     c39d048e-aca2-45c9-809c-421d40bf94c4: 'Hero image' # Hero image
     c60eeba3-1524-4c73-b4e0-f26aa4d1957e: Assigments # Assigments
+    c840c206-bc59-480a-85db-8e264995c7ea: label # label
     c8305c00-1df8-4bd2-9257-2a1ea3f15de0: AboutIntro # AboutIntro
     ce98cc55-b67b-4086-a132-4af940e1aa99: 'Long Description' # Long Description
     d57375af-fd95-446c-9efb-ff9d08fb7951: 'Hero title' # Hero title
