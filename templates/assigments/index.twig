@@ -10,7 +10,7 @@
                 </div>
             </div>
             <div class="row top-course">
-                {% set assigment = craft.entries.section('assigments').all %}
+                {% set assigment = craft.entries.section('assigments').orderBy('postDate DESC').limit(20).all %}
 
                 {% for assigment in assigment %}
 

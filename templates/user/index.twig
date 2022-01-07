@@ -65,17 +65,6 @@
                                 {{ _self.errorList(user.getErrors('lastName')) }}
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-md-12 form-group">
-                                <label for="lastName">Last Name</label>
-                                {{ input('text', 'lastName', user.lastName ?? null, {
-                                    id: 'lastName',
-                                    autocomplete: 'family-name',
-                                    class:"form-control "
-                                }) }}
-                                {{ user ? _self.errorList(user.getErrors('lastName')) }}
-                            </div>
-                        </div>
 
                         {% if user.photo %}
                             <label>Photo</label>
