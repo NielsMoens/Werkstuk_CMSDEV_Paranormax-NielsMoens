@@ -1,4 +1,4 @@
-dateModified: 1641520480
+dateModified: 1641582866
 email:
   fromEmail: paranormaxniels@gmail.com
   fromName: paranormax
@@ -184,6 +184,13 @@ plugins:
       twigInHtml: true
       twigInHtmlIsolatedMode: true
       updateSearchIndexes: '1'
+  mollie-payments:
+    edition: standard
+    enabled: true
+    licenseKey: 5YE3I9S4SMLMKS8A4LFDDSC4
+    schemaVersion: 1.4.0
+    settings:
+      apiKey: test_DvsDsNWzRMq3xvGsmD7aDWW8ttcr7S
   redactor:
     edition: standard
     enabled: true
