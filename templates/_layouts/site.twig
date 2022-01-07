@@ -22,10 +22,20 @@
                         </ul>
                         <ul class="navbar-nav absolute-right">
                             <li class="nav-item">
-                                <a href="/login/index" class="nav-link">Login</a>
+                                {% if currentUser %}
+                                <a href="{{ siteUrl }}user" class="nav-link">{{ currentUser.username }}</a>
+                                {% else %}
+
+                                {% endif %}
                             </li>
                             <li class="nav-item">
-                                <a href="/register/index" class="nav-link">Register</a>
+                                <a href="{{ siteUrl }}login/index" class="nav-link">Login</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="{{ siteUrl }}register/index" class="nav-link">Register</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="{{ logoutUrl }}" class="nav-link">log out</a>
                             </li>
                         </ul>
 
