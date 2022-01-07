@@ -1,4 +1,4 @@
-dateModified: 1641437277
+dateModified: 1641510136
 email:
   fromEmail: paranormaxniels@gmail.com
   fromName: paranormax
@@ -13,17 +13,24 @@ meta:
   __names__:
     0a559508-6b03-4139-8f98-19c82aaf7325: AboutImage # AboutImage
     0d7eb751-fa4e-49c0-a085-68880412e022: 'Partner Log' # Partner Log
+    1b404755-5271-4148-8f5d-326e87f13a48: 'testimonial Highlighted Image' # testimonial Highlighted Image
     1bb081cd-1fe3-48f4-ba2a-5bd719085fe7: Contact # Contact
     1d516ff2-714f-46d2-9cb4-2f6df535a61c: New # New
     1f7e54e6-a0c3-4c13-9628-82f831ea8664: Date # Date
+    1f69ab69-0e1c-4e6a-b5f0-7db717e39730: Testimonials # Testimonials
     2f52df08-fd1b-45f1-86de-8a6513355941: paranormax # paranormax
     3d2769a4-1306-4626-948f-8a4fb8096765: longDescription # longDescription
     3f2a0ec6-dde7-4cc8-9f9e-53b97721984d: 'Assigment Image' # Assigment Image
     4e296877-0f99-46d4-b07b-6a609f42330f: 'Menu Item' # Menu Item
+    5c2322a9-1a7a-4489-b80c-bcea9c81af90: 'testimonial Image' # testimonial Image
+    5da2605a-22e9-4a80-ad5c-a18fb0ed8074: login/register # login/register
     5deff13c-64d0-4144-bb2a-312a4393745a: 'Social Image' # Social Image
     6d8e3673-e879-4c23-9bda-6277baa77d95: 'Full Name' # Full Name
     7af331aa-cc01-4550-8588-9b1777047454: 'Assigments Listing' # Assigments Listing
     7b2086fd-9923-4004-a271-fd82dd752781: 'Main image' # Main image
+    7cae94da-dea4-43f7-a172-fdb7a9895ca8: Testimonials # Testimonials
+    7f2c6124-eb0f-4ded-9c60-26adae2c9f0c: 'Testimonials Title' # Testimonials Title
+    7fe7bdc9-f4e0-47fa-a831-82db591a36f3: 'Full name' # Full name
     08dfb538-829c-4b91-9e8a-a2a5fb05e527: Fullname # Fullname
     9da56d12-3869-42e3-8b17-4e298c8b5f7f: 'Contact Form' # Contact Form
     9e77f2bb-3de8-4c3e-b6bb-31e5367c9adc: paranormax # paranormax
@@ -47,8 +54,11 @@ meta:
     752f07aa-c77b-4050-970d-0ac239ce6c80: 'Hero subtitle' # Hero subtitle
     753ee6e9-0d3e-4bbd-91dc-6593f9a5c2e0: Socials # Socials
     920ffc3d-58e8-40e2-a927-399517a452ba: 'Social link' # Social link
+    2067afc9-4057-420e-a12e-60eef59798e6: login/register # login/register
     3038a8c1-571e-4032-8974-26d2f75064e8: 'Platform Name' # Platform Name
+    3252f27d-8a89-4fcd-813e-7bc8141f4c47: Login # Login
     28542e01-2582-4ce2-8f19-4bce5e2d7c14: heroButton # heroButton
+    93469ed8-cb67-4c5c-8215-b158e212747e: 'testimonial Intro ' # testimonial Intro 
     447027c2-9d54-4ee7-a3d4-31ca81a3ecb1: socials # socials
     868543fd-a092-4e33-9b3e-184bb8214998: footer # footer
     8510118e-a94c-474b-8c99-c7582f771711: 'Contact Form' # Contact Form
@@ -60,14 +70,22 @@ meta:
     accd3e2c-c7e6-42c7-86bb-63144e126227: destination # destination
     af96a360-e868-4b44-96c7-1f59862c15ac: New # New
     b00d2209-fc75-4d18-81e9-e911fb01b478: 'Medium description' # Medium description
+    b9b18a69-579d-482c-9d06-e3d0f0f59b01: 'Testimonial Highlighted Text' # Testimonial Highlighted Text
     b9c68e31-af36-42a3-a6ef-ae929d803505: Assigments # Assigments
     b9ea63f3-6f07-4bf8-9b3c-794d00de390a: About # About
+    b4651624-f962-4808-9a95-350b02a936ec: 'Testimonial Highlighted Name ' # Testimonial Highlighted Name 
     ba1001c3-692c-411a-8318-cf158f47cf71: 'MediumSkills ' # MediumSkills 
+    ba776976-7f7a-4bbf-880e-ebfc6f87f5c9: 'testimonial Text' # testimonial Text
+    bf12f036-a126-4659-9ee9-90f2c7bee9fe: Login # Login
     c39d048e-aca2-45c9-809c-421d40bf94c4: 'Hero image' # Hero image
     c60eeba3-1524-4c73-b4e0-f26aa4d1957e: Assigments # Assigments
     c840c206-bc59-480a-85db-8e264995c7ea: label # label
+    c6933b75-ba94-405d-8739-db00a3c1c282: 'Full Name' # Full Name
     c8305c00-1df8-4bd2-9257-2a1ea3f15de0: AboutIntro # AboutIntro
+    c890189f-5642-4883-9810-9435a6519ad7: Testimonials # Testimonials
     ce98cc55-b67b-4086-a132-4af940e1aa99: 'Long Description' # Long Description
+    d2fff1cd-01a3-45b7-aa68-bffb4f611154: testimonialHighlighted # testimonialHighlighted
+    d5bcbe49-68a2-4404-a067-4432c7382ef1: 'testimonial Image' # testimonial Image
     d57375af-fd95-446c-9efb-ff9d08fb7951: 'Hero title' # Hero title
     dcb8c327-7be6-4722-a756-439adbc78f92: Home # Home
     e2d2b645-10b9-42de-93d0-ce20320b878f: Intro # Intro
@@ -178,8 +196,10 @@ system:
   schemaVersion: 3.7.8
   timeZone: Europe/Brussels
 users:
-  allowPublicRegistration: false
-  defaultGroup: null
+  allowPublicRegistration: true
+  defaultGroup: ''
   photoSubpath: null
-  photoVolumeUid: null
+  photoVolumeUid: 89a77c27-74a4-4733-84cc-fb1bba1fe585 # Uploads
   requireEmailVerification: true
+  suspendByDefault: false
+  validateOnPublicRegistration: false

@@ -1,0 +1,19 @@
+columnSuffix: null
+contentColumnType: string(1020)
+fieldGroup: 1f69ab69-0e1c-4e6a-b5f0-7db717e39730 # Testimonials
+handle: testimonialHighlightedName
+instructions: ''
+name: 'Testimonial Highlighted Name '
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: 255
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

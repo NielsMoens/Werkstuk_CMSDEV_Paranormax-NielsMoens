@@ -71,28 +71,6 @@ fieldLayouts:
       -
         elements:
           -
-            fieldUid: 123bac14-df85-4366-a03e-b91aa658b351
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
-          -
-            fieldUid: 88afba06-2ca9-4b5c-91e8-34bb4e343b19
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
-        name: Mediums
-        sortOrder: 3
-      -
-        elements:
-          -
             fieldUid: f8189118-620a-43f9-90a8-ef38b4f1a021 # About Title 
             instructions: null
             label: null
@@ -120,7 +98,7 @@ fieldLayouts:
             warning: null
             width: 100
         name: About
-        sortOrder: 4
+        sortOrder: 3
       -
         elements:
           -
@@ -142,7 +120,7 @@ fieldLayouts:
             warning: null
             width: 100
         name: Socials
-        sortOrder: 5
+        sortOrder: 4
       -
         elements:
           -
@@ -164,6 +142,55 @@ fieldLayouts:
             warning: null
             width: 100
         name: Partners
+        sortOrder: 5
+      -
+        elements:
+          -
+            fieldUid: 7f2c6124-eb0f-4ded-9c60-26adae2c9f0c # Testimonials Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: b4651624-f962-4808-9a95-350b02a936ec # Testimonial Highlighted Name 
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: b9b18a69-579d-482c-9d06-e3d0f0f59b01 # Testimonial Highlighted Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 1b404755-5271-4148-8f5d-326e87f13a48 # testimonial Highlighted Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 7cae94da-dea4-43f7-a172-fdb7a9895ca8 # Testimonials
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Testimonials
         sortOrder: 6
 handle: homepage
 hasTitleField: false

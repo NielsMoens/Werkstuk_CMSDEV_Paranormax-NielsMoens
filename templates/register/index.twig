@@ -1,0 +1,133 @@
+{% extends "_layouts/site" %}
+
+{% block content %}
+    {% macro errorList(errors) %}
+        {% if errors %}
+            {{ ul(errors, {class: 'errors'}) }}
+        {% endif %}
+    {% endmacro %}
+
+    {# `user` is defined if the form returns validation errors. #}
+    {% set user = user ?? null %}
+
+    <section class="site-hero site-hero-innerpage overlay" data-stellar-background-ratio="0.5" style="background-image: url( );">
+        <div class="container">
+            <div class="row align-items-center site-hero-inner justify-content-center">
+                <div class="col-md-8 text-center">
+                    <div class="mb-5 element-animate">
+                        <h1>Register</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- END section -->
+
+    <section class="site-section bg-light">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-5 box">
+                    <h2 class="mb-5">Register new account</h2>
+                    <form method="post" accept-charset="UTF-8">
+                        {{ csrfInput() }}
+                        {{ actionInput('users/save-user') }}
+                        {{ redirectInput('/web/login/index') }}
+
+                        <div class="row">
+                            <div class="col-md-12 form-group">
+                                <label for="username">Username</label>
+                                {{ input('text', 'username', user.username ?? null, {
+                                    id: 'username',
+                                    autocomplete: 'username',
+                                    class:"form-control "
+                                }) }}
+                                {{ user ? _self.errorList(user.getErrors('username')) }}
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 form-group">
+                                <label for="firstName">First Name</label>
+                                {{ input('text', 'firstName', user.firstName ?? null, {
+                                    id: 'firstName',
+                                    autocomplete: 'given-name',
+                                    class:"form-control "
+                                }) }}
+                                {{ user ? _self.errorList(user.getErrors('firstName')) }}
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 form-group">
+                                <label for="lastName">Last Name</label>
+                                {{ input('text', 'lastName', user.lastName ?? null, {
+                                    id: 'lastName',
+                                    autocomplete: 'family-name',
+                                    class:"form-control "
+                                }) }}
+                                {{ user ? _self.errorList(user.getErrors('lastName')) }}
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 form-group">
+                                <label for="email">Email</label>
+                                {{ input('email', 'email', user.email ?? null, {
+                                    id: 'email',
+                                    autocomplete: 'email',
+                                    class:"form-control "
+                                }) }}
+                                {{ user ? _self.errorList(user.getErrors('email')) }}
+                            </div>
+                        </div>
+                        <div class="row ">
+                            <div class="col-md-12 form-group">
+                                <label for="password">Password</label>
+                                {{ input('password', 'password', null, {
+                                    id: 'password',
+                                    class:"form-control "
+                                }) }}
+                                {{ user ? _self.errorList(user.getErrors('password')) }}
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 form-group">
+                                <input type="submit" value="Register" class="btn btn-primary">
+                            </div>
+                        </div>
+                        {% if errorMessage is defined %}
+                            <p>{{ errorMessage }}</p>
+                        {% endif %}
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+{#<form method="post" accept-charset="UTF-8">#}
+{#    {{ csrfInput() }}#}
+{#    {{ actionInput('users/login') }}#}
+
+{#    <label for="loginName">Username or email</label>#}
+{#    {{ input('text', 'loginName', craft.app.user.rememberedUsername, {#}
+{#        id: 'loginName',#}
+{#        autocomplete: 'username'#}
+{#    }) }}#}
+
+{#    <label for="password">Password</label>#}
+{#    {{ input('password', 'password', null, {#}
+{#        id: 'password',#}
+{#    }) }}#}
+
+{#    <button type="submit">Login</button>#}
+
+{#    {% if errorMessage is defined %}#}
+{#        <p>{{ errorMessage }}</p>#}
+{#    {% endif %}#}
+{#</form>#}
+{% endblock %}
+
+
+
+
+
+
