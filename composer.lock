@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "21abed7680a4a57fb5abf9d478dfef73",
+    "content-hash": "7f96a2c3c1e0cb94d3150d011c473e48",
     "packages": [
         {
             "name": "cebe/markdown",
@@ -1892,6 +1892,55 @@
                 "source": "https://github.com/MarkBaker/PHPMatrix/tree/3.0.0"
             },
             "time": "2021-07-01T19:01:15+00:00"
+        },
+        {
+            "name": "mattgrayisok/craft-dark-mode",
+            "version": "1.1.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mattgrayisok/craft-dark-mode/zipball/ce2e24a97fccb06c4a44970379cf2b78f03e22fc",
+                "reference": "ce2e24a97fccb06c4a44970379cf2b78f03e22fc",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.0.0"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Dark Mode",
+                "handle": "craft-dark-mode",
+                "hasCpSettings": false,
+                "hasCpSection": false,
+                "changelogUrl": "https://raw.githubusercontent.com/mattgrayisok/craft-dark-mode/master/CHANGELOG.md",
+                "class": "mattgrayisok\\darkmode\\DarkMode"
+            },
+            "autoload": {
+                "psr-4": {
+                    "mattgrayisok\\darkmode\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Matt Gray",
+                    "homepage": "https://mattgrayisok.com"
+                }
+            ],
+            "description": "A Dark Mode for Craft CMS",
+            "keywords": [
+                "cms",
+                "craft",
+                "craft-plugin",
+                "craftcms",
+                "dark mode"
+            ],
+            "support": {
+                "docs": "https://github.com/mattgrayisok/craft-dark-mode/blob/master/README.md",
+                "issues": "https://github.com/mattgrayisok/craft-dark-mode/issues"
+            },
+            "time": "2019-01-06T23:13:43+00:00"
         },
         {
             "name": "mikehaertl/php-shellcommand",

@@ -1,22 +1,86 @@
-<form method="post">
-    {{ csrfInput() }}
-    {{ actionInput("mollie-payments/payment/pay") }}
-    {{ redirectInput("confirmation-page") }}
-    <input type="hidden" name="amount" value="{{ 20|hash }}">
-    <input type="hidden" name="form" value="{{ 'formHandle'|hash }}">
+{#<!-- mollie payment -->#}
+{#<form method="post">#}
+{#    {{ csrfInput() }}#}
+{#    {{ actionInput("mollie-payments/payment/pay") }}#}
+{#    {{ redirectInput("confirmation-page") }}#}
+{#    <input type="hidden" name="amount" value="{{ 20|hash }}">#}
+{#    <input type="hidden" name="form" value="{{ 'formHandle'|hash }}">#}
+{#    <div>#}
+{#        <label for="email">{{ "E-mail"|t }}</label>#}
+{#        <input type="email" id="email" name="email">#}
+{#    </div>#}
+{#    <div>#}
+{#        <label for="firstName">{{ "First name"|t }}</label>#}
+{#        <input type="text" id="firstName" name="fields[firstName]">#}
+{#    </div>#}
+{#    <div>#}
+{#        <label for="lastName">{{ "Last name"|t }}</label>#}
+{#        <input type="text" id="lastName" name="fields[lastName]">#}
+{#    </div>#}
+{#    <input type="submit" class="btn " value="{{ "Pay"|t }}">#}
+{#</form>#}
 
-    <div>
-        <label for="email">{{ "E-mail"|t }}</label>
-        <input type="email" id="email" name="email">
-    </div>
-    <div>
-        <label for="firstName">{{ "First name"|t }}</label>
-        <input type="text" id="firstName" name="fields[firstName]">
-    </div>
-    <div>
-        <label for="lastName">{{ "Last name"|t }}</label>
-        <input type="text" id="lastName" name="fields[lastName]">
-    </div>
+{% extends "_layouts/site" %}
 
-    <input type="submit" class="btn " value="{{ "Pay"|t }}">
-</form>
+{% block content %}
+    {# Require that a user is logged in to view this form. #}
+    {% requireLogin %}
+
+
+    {% macro errorList(errors) %}
+        {% if errors %}
+            {{ ul(errors, {class: 'errors'}) }}
+        {% endif %}
+    {% endmacro %}
+
+    {# If there were any validation errors, a `user` variable will be passed to the
+   template, which contains the posted values and validation errors. If that’s not
+   set, we’ll default to the current user. #}
+    {% set user = user ?? currentUser %}
+
+    {% if user.hasErrors() %}
+        <p>Unable to save your profile.</p>
+    {% endif %}
+
+    <section class="site-section bg-light">
+        {% if currentUser %}
+            Welcome, {{ currentUser }}!
+        {% else %}
+            <div class="alert alert-warning" role="alert">
+                This is a warning alert—check it out!
+            </div>
+        {% endif %}
+        <div class="container">
+            <div class="row justify-content-center mb-5">
+                <div class="col-md-7 text-center">
+                    <h2>Vip Content</h2>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum magnam illum maiores adipisci pariatur, eveniet.</p>
+                </div>
+            </div>
+            <div class="row top-course">
+                Stories & video Channel TODO
+{#                {% set assigment = craft.entries.section('assigments').orderBy('postDate DESC').limit(20).all %}#}
+
+{#                {% for assigment in assigment %}#}
+
+{#                    <div class="col-md-4 col-sm-6 col-12">#}
+{#                        <a href="{{ assigment.url }}" class="course">#}
+{#                            {% set img = assigment.mainImage.one() %}#}
+{#                            <img src="{{ img.getUrl({width: 750}) }}" alt=" {{ img.title }}">#}
+{#                            <h2>{{ assigment.title }}</h2>#}
+{#                            <p>Read more ...</p>#}
+{#                        </a>#}
+{#                    </div>#}
+{#                {% endfor %}#}
+            </div>
+        </div>
+    </section>
+
+{% endblock %}
+
+
+
+
+
+
+

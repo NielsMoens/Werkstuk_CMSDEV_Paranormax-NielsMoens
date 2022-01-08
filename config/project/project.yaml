@@ -1,4 +1,4 @@
-dateModified: 1641582866
+dateModified: 1641664914
 email:
   fromEmail: paranormaxniels@gmail.com
   fromName: paranormax
@@ -22,6 +22,7 @@ meta:
     3d2769a4-1306-4626-948f-8a4fb8096765: longDescription # longDescription
     3f2a0ec6-dde7-4cc8-9f9e-53b97721984d: 'Assigment Image' # Assigment Image
     4e296877-0f99-46d4-b07b-6a609f42330f: 'Menu Item' # Menu Item
+    5a422a9a-cb78-4681-9774-ff43bf021357: 'Public Schema' # Public Schema
     5c2322a9-1a7a-4489-b80c-bcea9c81af90: 'testimonial Image' # testimonial Image
     5da2605a-22e9-4a80-ad5c-a18fb0ed8074: login/register # login/register
     5deff13c-64d0-4144-bb2a-312a4393745a: 'Social Image' # Social Image
@@ -98,6 +99,10 @@ meta:
     f401e857-8c7b-48ac-ada9-8f65ca666d4a: Homepage # Homepage
     f8189118-620a-43f9-90a8-ef38b4f1a021: 'About Title ' # About Title 
 plugins:
+  craft-dark-mode:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.1.0
   dumper:
     edition: standard
     enabled: true
@@ -190,7 +195,7 @@ plugins:
     licenseKey: 5YE3I9S4SMLMKS8A4LFDDSC4
     schemaVersion: 1.4.0
     settings:
-      apiKey: test_DvsDsNWzRMq3xvGsmD7aDWW8ttcr7S
+      apiKey: test_BRRpUHJGQazsrRKhwPDyvAquW8A2en
   redactor:
     edition: standard
     enabled: true

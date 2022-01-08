@@ -9,7 +9,6 @@
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-
                     <div class="collapse navbar-collapse navbar-light" id="navbarsExample05">
                         <ul class="navbar-nav mx-auto">
                             {%  set menuItem = header.menu.all() %}
@@ -25,21 +24,25 @@
                                 {% if currentUser %}
                                 <a href="{{ siteUrl }}user" class="nav-link">{{ currentUser.username }}</a>
                                 {% else %}
-
+                                    <li class="nav-item">
+                                        <a href="{{ siteUrl }}login/index" class="nav-link">Login</a>
+                                    </li>
                                 {% endif %}
                             </li>
-                            <li class="nav-item">
-                                <a href="{{ siteUrl }}login/index" class="nav-link">Login</a>
+                            {% if currentUser %}
+                                <li class="nav-item">
+                                        <a href="{{ logoutUrl }}" class="nav-link">log out</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="{{ siteUrl }}vip" class="nav-link">VIP </a>
+                                </li>
+                            {% else %}
+                                <li class="nav-item">
+                                    <a href="{{ siteUrl }}register/index" class="nav-link">Register</a>
+                                </li>
+                            {% endif %}
                             </li>
-                            <li class="nav-item">
-                                <a href="{{ siteUrl }}register/index" class="nav-link">Register</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="{{ logoutUrl }}" class="nav-link">log out</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="" class="nav-link">VIP </a>
-                            </li>
+
                         </ul>
 
                     </div>

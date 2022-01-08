@@ -2,6 +2,7 @@
   "require": {
     "craftcms/cms": "^3.7.26",
     "craftcms/redactor": "2.8.8",
+    "mattgrayisok/craft-dark-mode": "1.1.0",
     "solspace/craft-freeform": "3.12.11",
     "studioespresso/craft-dumper": "2.0.0",
     "studioespresso/craft-mollie-payments": "2.2.0",
