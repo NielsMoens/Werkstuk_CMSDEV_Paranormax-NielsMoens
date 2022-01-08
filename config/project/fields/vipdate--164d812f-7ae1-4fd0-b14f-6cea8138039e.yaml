@@ -1,0 +1,17 @@
+columnSuffix: bwepxhoe
+contentColumnType: datetime
+fieldGroup: 0cbe603d-0871-4e67-9fbc-66cf8120a056 # VIP
+handle: vipdate
+instructions: ''
+name: Date
+searchable: false
+settings:
+  max: null
+  min: null
+  minuteIncrement: '30'
+  showDate: true
+  showTime: false
+  showTimeZone: false
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Date

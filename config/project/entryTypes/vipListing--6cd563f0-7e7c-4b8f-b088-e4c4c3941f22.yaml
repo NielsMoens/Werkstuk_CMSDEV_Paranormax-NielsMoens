@@ -1,0 +1,82 @@
+fieldLayouts:
+  076f48d3-a9e2-4814-a072-87076abe687a:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 100
+        name: Main
+        sortOrder: 1
+      -
+        elements:
+          -
+            fieldUid: 54452110-858d-4aa6-af20-a8512e5214a5 # video Intro
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Video
+        sortOrder: 2
+      -
+        elements:
+          -
+            fieldUid: d57375af-fd95-446c-9efb-ff9d08fb7951 # Hero title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 752f07aa-c77b-4050-970d-0ac239ce6c80 # Hero subtitle
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: c39d048e-aca2-45c9-809c-421d40bf94c4 # Hero image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Heading
+        sortOrder: 3
+handle: vipListing
+hasTitleField: false
+name: VIPListing
+section: e9476706-665a-4a37-b59e-b56d25dad3ce # VIPListing
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

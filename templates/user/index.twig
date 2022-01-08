@@ -39,7 +39,7 @@
                         {{ csrfInput() }}
                         {{ actionInput('users/save-user') }}
                         {{ hiddenInput('userId', user.id) }}
-                        {{ redirectInput("users/#{currentUser.username}") }}
+                        {{ redirectInput('/web/user') }}
 
                         <div class="row">
                             <div class="col-md-12 form-group">

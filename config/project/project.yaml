@@ -1,4 +1,4 @@
-dateModified: 1641664914
+dateModified: 1641680362
 email:
   fromEmail: paranormaxniels@gmail.com
   fromName: paranormax
@@ -12,6 +12,7 @@ email:
 meta:
   __names__:
     0a559508-6b03-4139-8f98-19c82aaf7325: AboutImage # AboutImage
+    0cbe603d-0871-4e67-9fbc-66cf8120a056: VIP # VIP
     0d7eb751-fa4e-49c0-a085-68880412e022: 'Partner Log' # Partner Log
     1b404755-5271-4148-8f5d-326e87f13a48: 'testimonial Highlighted Image' # testimonial Highlighted Image
     1bb081cd-1fe3-48f4-ba2a-5bd719085fe7: Contact # Contact
@@ -21,11 +22,13 @@ meta:
     2f52df08-fd1b-45f1-86de-8a6513355941: paranormax # paranormax
     3d2769a4-1306-4626-948f-8a4fb8096765: longDescription # longDescription
     3f2a0ec6-dde7-4cc8-9f9e-53b97721984d: 'Assigment Image' # Assigment Image
+    3fb22130-5749-462f-91d7-b2d5c71aa674: 'Main image' # Main image
     4e296877-0f99-46d4-b07b-6a609f42330f: 'Menu Item' # Menu Item
     5a422a9a-cb78-4681-9774-ff43bf021357: 'Public Schema' # Public Schema
     5c2322a9-1a7a-4489-b80c-bcea9c81af90: 'testimonial Image' # testimonial Image
     5da2605a-22e9-4a80-ad5c-a18fb0ed8074: login/register # login/register
     5deff13c-64d0-4144-bb2a-312a4393745a: 'Social Image' # Social Image
+    6cd563f0-7e7c-4b8f-b088-e4c4c3941f22: VIPListing # VIPListing
     6d8e3673-e879-4c23-9bda-6277baa77d95: 'Full Name' # Full Name
     7af331aa-cc01-4550-8588-9b1777047454: 'Assigments Listing' # Assigments Listing
     7b2086fd-9923-4004-a271-fd82dd752781: 'Main image' # Main image
@@ -47,6 +50,7 @@ meta:
     87faf1ba-6b1d-4a19-aa60-42c7b98fb2e4: Menu # Menu
     89a77c27-74a4-4733-84cc-fb1bba1fe585: Uploads # Uploads
     89b15cc2-16c9-411c-a5e0-987b6b2b9639: Mediums # Mediums
+    164d812f-7ae1-4fd0-b14f-6cea8138039e: Date # Date
     275a2c43-f3fb-4d38-a696-8012131ff331: Default # Default
     306a9a21-248b-46d2-899f-070f6b159055: Status # Status
     0338e864-2b3a-445b-91e2-ed798b9ba31b: General # General
@@ -58,15 +62,19 @@ meta:
     2067afc9-4057-420e-a12e-60eef59798e6: login/register # login/register
     3038a8c1-571e-4032-8974-26d2f75064e8: 'Platform Name' # Platform Name
     3252f27d-8a89-4fcd-813e-7bc8141f4c47: Login # Login
+    5375bc6f-debc-493e-a8ea-7cc4995e8a92: StoriesImage # StoriesImage
+    20914df1-0cc0-4d4b-ab10-1798f247a60d: 'Short description' # Short description
     28542e01-2582-4ce2-8f19-4bce5e2d7c14: heroButton # heroButton
     93469ed8-cb67-4c5c-8215-b158e212747e: 'testimonial Intro ' # testimonial Intro 
     447027c2-9d54-4ee7-a3d4-31ca81a3ecb1: socials # socials
     868543fd-a092-4e33-9b3e-184bb8214998: footer # footer
     8510118e-a94c-474b-8c99-c7582f771711: 'Contact Form' # Contact Form
+    54452110-858d-4aa6-af20-a8512e5214a5: 'video Intro' # video Intro
     a06667e8-9b29-43e0-a233-3a2df2b65891: 'Medium Image' # Medium Image
     a2f0fc69-150d-4d85-b00e-cd0941c12caf: 'Status Assigments' # Status Assigments
     a9c9fdac-1294-4d72-baf5-e282193b78d6: Partners # Partners
     a69e96c7-e41e-40d8-b130-c18b4572dc39: Image # Image
+    a89be08e-9c8d-4161-af5a-e99896760e4a: Default # Default
     a336ca38-fd77-4465-8172-7e76669ea403: Mediums # Mediums
     accd3e2c-c7e6-42c7-86bb-63144e126227: destination # destination
     af96a360-e868-4b44-96c7-1f59862c15ac: New # New
@@ -86,24 +94,32 @@ meta:
     c890189f-5642-4883-9810-9435a6519ad7: Testimonials # Testimonials
     ce98cc55-b67b-4086-a132-4af940e1aa99: 'Long Description' # Long Description
     d2fff1cd-01a3-45b7-aa68-bffb4f611154: testimonialHighlighted # testimonialHighlighted
+    d4c81fbc-1744-4fab-aa75-282f6211e9a3: VIP # VIP
     d5bcbe49-68a2-4404-a067-4432c7382ef1: 'testimonial Image' # testimonial Image
     d57375af-fd95-446c-9efb-ff9d08fb7951: 'Hero title' # Hero title
     dcb8c327-7be6-4722-a756-439adbc78f92: Home # Home
     e2d2b645-10b9-42de-93d0-ce20320b878f: Intro # Intro
     e691f341-1d87-4695-ba4a-b2bd2d47cdd1: Socials # Socials
     e787970d-0f13-47a1-a405-b0f17adb892d: Default # Default
+    e9476706-665a-4a37-b59e-b56d25dad3ce: VIPListing # VIPListing
+    eaf1cff9-b8f4-48ff-9018-364a3bc3251e: 'Long Description' # Long Description
     ebc68f43-f32f-496e-80e7-661e24c58290: 'Partner Link' # Partner Link
     ed6c8077-664c-4ab5-8aef-90d044ce2e7e: 'Contact Form' # Contact Form
     ee654c2e-ccf3-4e37-95cd-43c47d4365af: 'Socials Intro ' # Socials Intro 
     ef98329f-cbaf-4fd1-b69d-27e839d414a7: Disclaimer # Disclaimer
     f401e857-8c7b-48ac-ada9-8f65ca666d4a: Homepage # Homepage
     f8189118-620a-43f9-90a8-ef38b4f1a021: 'About Title ' # About Title 
+    fa2396d5-a92a-4342-9445-9e41ca80674f: 'Stories Intro' # Stories Intro
 plugins:
   craft-dark-mode:
     edition: standard
     enabled: true
     schemaVersion: 1.1.0
   dumper:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  field-manager:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0
@@ -200,6 +216,10 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 2.3.0
+  smith:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
 system:
   edition: pro
   live: true
