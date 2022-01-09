@@ -99,7 +99,7 @@
         </div>
     </section>
 
-{#    Partnets#}
+{#    Parters#}
     <section class="site-section bg-light">
         <div class="container">
             <div class="row justify-content-center mb-5">
@@ -108,7 +108,8 @@
                 </div>
             </div>
             <div class="row top-course">
-                {% for partner in entry.partners%}
+                {% set partners = entry.partners %}
+                {% for partner in partners%}
                     {% set partnerImg = partner.partnerLogo.one() %}
                     <div class="col-lg-2 col-md-4 col-sm-6 col-12">
                         <a href="{{ partner.socialLink }}" class="course">
@@ -120,6 +121,7 @@
             </div>
         </div>
     </section>
+
 {#  Testimonials #}
     <section class="site-section ">
         <div class="container">
@@ -160,7 +162,8 @@
                         </div>
                     </div>
                 </div>
-                {% for testimonial in entry.testimonials%}
+                {% set testimonials = entry.testimonials%}
+                {% for testimonial in testimonials%}
                     {% set thumbnail = testimonial.testimonialImage.one() %}
                     {% set cropSettings = {
                         mode: 'crop',
@@ -209,14 +212,19 @@
 
 
         </section>
-    {# stats #}
+
+{#  stats #}
     <section class="site-section bg-dark">
         <div class="container">
             <div class="row justify-content-center mb-5 text-white">
                 <div class="col-md-7 text-center">
-                <h2 class="text-white">Stats</h2>
+                <h2 class="text-white">Statistics</h2>
                 </div>
             </div>
+            {% set usersCount = craft.users().all()|length %}
+            {% set testimonialsCount = testimonials|length + 1 %}
+            {% set partnersCount = partners|length  %}
+            {% set assigmentsCount = craft.entries.section('assigments').all|length  %}
             <div class="row">
                 <div class="col-xl-3 col-sm-6 col-12 mb-4">
                     <div class="card">
@@ -224,11 +232,11 @@
                             <div class="card-body">
                                 <div class="media d-flex">
                                     <div class="align-self-center">
-                                        <i class="fab fa-galactic-senate "></i>
+                                        <h1 class="fas fa-male"></h1>
                                     </div>
                                     <div class="media-body text-right">
-                                        <h3>278</h3>
-                                        <span>New Posts</span>
+                                        <h3>{{ usersCount }}</h3>
+                                        <span>Mediums</span>
                                     </div>
                                 </div>
                             </div>
@@ -241,12 +249,11 @@
                             <div class="card-body">
                                 <div class="media d-flex">
                                     <div class="align-self-center">
-                                        <i class="fab fa-galactic-senate "></i>
-
+                                        <h1 class="far fa-grin-stars"></h1>
                                     </div>
                                     <div class="media-body text-right">
-                                        <h3>278</h3>
-                                        <span>New Posts</span>
+                                        <h3>{{ testimonialsCount }}</h3>
+                                        <span>Testimonials</span>
                                     </div>
                                 </div>
                             </div>
@@ -259,12 +266,11 @@
                             <div class="card-body">
                                 <div class="media d-flex">
                                     <div class="align-self-center">
-                                        <i class="fab fa-galactic-senate "></i>
-
+                                        <h1 class="fas fa-handshake"></h1>
                                     </div>
                                     <div class="media-body text-right">
-                                        <h3>278</h3>
-                                        <span>New Posts</span>
+                                        <h3>{{ partnersCount }}</h3>
+                                        <span>Partners</span>
                                     </div>
                                 </div>
                             </div>
@@ -277,12 +283,11 @@
                             <div class="card-body">
                                 <div class="media d-flex">
                                     <div class="align-self-center">
-                                        <i class="fab fa-galactic-senate "></i>
-
+                                        <h1 class="fas fa-tasks"></h1>
                                     </div>
                                     <div class="media-body text-right">
-                                        <h3>278</h3>
-                                        <span>New Posts</span>
+                                        <h3>{{ assigmentsCount }}</h3>
+                                        <span>Assigments</span>
                                     </div>
                                 </div>
                             </div>

@@ -2,7 +2,7 @@ tabs:
   -
     elements:
       -
-        fieldUid: e2d2b645-10b9-42de-93d0-ce20320b878f # Intro
+        fieldUid: 055b4ea0-bead-4502-bef8-136324a6ed49 # Short description
         instructions: null
         label: null
         required: false
