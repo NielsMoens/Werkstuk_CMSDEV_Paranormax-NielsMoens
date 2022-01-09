@@ -26,7 +26,6 @@
                     {{ entry.aboutTitle }}
                 </div>
             </div>
-
             <div class="row mb-5 align-items-center">
                 <div class="col-md-6 overflow order-1">
                     <img src="{{ aboutimage.url }}" alt="" class="img-fluid">
@@ -44,27 +43,33 @@
         <div class="container">
             <div class="row justify-content-center mb-5">
                 <div class="col-md-7 text-center">
-                    <h2>Mediums</h2>
+                    <h2>{{ entry.mediumTitle }}</h2>
                 </div>
             </div>
             <section class="school-features text-dark d-flex">
                 <div class="inner">
-                    {% set mediums = craft.entries.section('mediums').all %}
-                    {% for medium in mediums %}
-                        {% set img = medium.mediumImage.one() %}
+                    {% set users = craft.users().all() %}
+                    {% for user in users %}
+                        {% set admin=user.admin %}
                         {% set cropSettings = {
                             mode: 'crop',
                             width: 250,
                             height: 250,
                             quality: 80
                         } %}
+                        {% set img = user.photo %}
                         <div class="media d-block feature text-center">
-                            <img src="{{ img.getUrl(cropSettings) }}" alt="Image placeholder" class="mb-3">
+                            <img src=" " alt="Image placeholder" class="mb-3">
                             <div class="media-body">
-                                <h3 class="mt-0">{{ medium.title }}</h3>
-                                <p>{{medium.mediumDescription}}</p>
+                                <h3 class="mt-0">{{ user.firstName }} {{ user.lastName }} </h3>
+                                {% if admin == 1 %}
+                                    <p>Leader</p>
+                                {% else %}
+                                    <p>member</p>
+                                {% endif %}
+                                <p>{{user.shortDescription}}</p>
                             </div>
-                            <a href="{{ medium.url }}" class="course">Learn more ...</a>
+{#                            <a href="{{ medium.url }}" class="course">Learn more ...</a>#}
                         </div>
                     {% endfor %}
                 </div>
@@ -218,7 +223,7 @@
         <div class="container">
             <div class="row justify-content-center mb-5 text-white">
                 <div class="col-md-7 text-center">
-                <h2 class="text-white">Statistics</h2>
+                <h2 class="text-white">{{ entry.statsTitle }}</h2>
                 </div>
             </div>
             {% set usersCount = craft.users().all()|length %}

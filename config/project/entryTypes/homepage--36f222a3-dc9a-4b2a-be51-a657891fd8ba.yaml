@@ -192,6 +192,32 @@ fieldLayouts:
             width: 100
         name: Testimonials
         sortOrder: 6
+      -
+        elements:
+          -
+            fieldUid: e3038a78-b860-4e8b-9de0-dbb632d23cfc # Medium Title 
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Mediums
+        sortOrder: 7
+      -
+        elements:
+          -
+            fieldUid: d868cd7b-85cd-441e-be51-bb3663100dd8 # Stats Title 
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Stats
+        sortOrder: 8
 handle: homepage
 hasTitleField: false
 name: Homepage

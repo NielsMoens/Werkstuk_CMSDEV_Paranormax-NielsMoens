@@ -1,0 +1,19 @@
+columnSuffix: wcfhbpbw
+contentColumnType: string(1020)
+fieldGroup: a336ca38-fd77-4465-8172-7e76669ea403 # Mediums
+handle: mediumTitle
+instructions: ''
+name: 'Medium Title '
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: 255
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

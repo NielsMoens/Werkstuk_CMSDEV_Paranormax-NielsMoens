@@ -1,4 +1,4 @@
-dateModified: 1641753447
+dateModified: 1641759133
 email:
   fromEmail: paranormaxniels@gmail.com
   fromName: paranormax
@@ -50,13 +50,13 @@ meta:
     77d7adb5-9953-4236-b115-c50673563aea: New # New
     87faf1ba-6b1d-4a19-aa60-42c7b98fb2e4: Menu # Menu
     89a77c27-74a4-4733-84cc-fb1bba1fe585: Uploads # Uploads
-    89b15cc2-16c9-411c-a5e0-987b6b2b9639: Mediums # Mediums
     164d812f-7ae1-4fd0-b14f-6cea8138039e: Date # Date
     275a2c43-f3fb-4d38-a696-8012131ff331: Default # Default
     278c2db7-cdfc-4513-b25a-8e89df5e431b: 'location Image' # location Image
     306a9a21-248b-46d2-899f-070f6b159055: Status # Status
     0338e864-2b3a-445b-91e2-ed798b9ba31b: General # General
     0419cb8c-c0a4-41b9-bd68-52b17382ebb4: Partners # Partners
+    673dc4ee-916b-4f4f-bf05-bb70b83e98b5: Stats # Stats
     748d1099-3ef0-4d54-b217-e8a613964436: 'Assigments Listing' # Assigments Listing
     752f07aa-c77b-4050-970d-0ac239ce6c80: 'Hero subtitle' # Hero subtitle
     753ee6e9-0d3e-4bbd-91dc-6593f9a5c2e0: Socials # Socials
@@ -104,11 +104,12 @@ meta:
     d2fff1cd-01a3-45b7-aa68-bffb4f611154: testimonialHighlighted # testimonialHighlighted
     d4c81fbc-1744-4fab-aa75-282f6211e9a3: VIP # VIP
     d5bcbe49-68a2-4404-a067-4432c7382ef1: 'testimonial Image' # testimonial Image
+    d868cd7b-85cd-441e-be51-bb3663100dd8: 'Stats Title ' # Stats Title 
     d57375af-fd95-446c-9efb-ff9d08fb7951: 'Hero title' # Hero title
     dcb8c327-7be6-4722-a756-439adbc78f92: Home # Home
     e2d2b645-10b9-42de-93d0-ce20320b878f: Intro # Intro
     e691f341-1d87-4695-ba4a-b2bd2d47cdd1: Socials # Socials
-    e787970d-0f13-47a1-a405-b0f17adb892d: Default # Default
+    e3038a78-b860-4e8b-9de0-dbb632d23cfc: 'Medium Title ' # Medium Title 
     e9476706-665a-4a37-b59e-b56d25dad3ce: VIPListing # VIPListing
     eaf1cff9-b8f4-48ff-9018-364a3bc3251e: 'Long Description' # Long Description
     ebc68f43-f32f-496e-80e7-661e24c58290: 'Partner Link' # Partner Link

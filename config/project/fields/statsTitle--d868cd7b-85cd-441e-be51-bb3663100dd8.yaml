@@ -1,0 +1,19 @@
+columnSuffix: iweqsdgo
+contentColumnType: string(1020)
+fieldGroup: 673dc4ee-916b-4f4f-bf05-bb70b83e98b5 # Stats
+handle: statsTitle
+instructions: ''
+name: 'Stats Title '
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: 255
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText
