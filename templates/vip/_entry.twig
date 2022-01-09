@@ -27,13 +27,13 @@
                     {% set authImg =  entry.authorImage.one() %}
                     <div class="sidebar-box">
                         <img src="{{ authImg.url }}" alt="Image placeholder" class="img-fluid mb-4">
-                        <h3>{{  entry.authorName }}</h3>
+                        <h3>Author: {{  entry.authorName }}</h3>
                         <p>{{ entry.authorInfo }}</p>
                     </div>
                     {% set locationImg =  entry.locationImage.one() %}
                     <div class="sidebar-box">
                         <img src="{{ locationImg.url }}" alt="Image placeholder" class="img-fluid mb-4">
-                        <h3>{{ entry.location }}</h3>
+                        <h3>Location: {{ entry.location }}</h3>
                         <p>{{ entry.locationInfo }}</p>
                     </div>
                 </div>
