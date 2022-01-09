@@ -1,0 +1,19 @@
+columnSuffix: fygipryt
+contentColumnType: text
+fieldGroup: 0cbe603d-0871-4e67-9fbc-66cf8120a056 # VIP
+handle: storiesHead
+instructions: ''
+name: 'Stories Head'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

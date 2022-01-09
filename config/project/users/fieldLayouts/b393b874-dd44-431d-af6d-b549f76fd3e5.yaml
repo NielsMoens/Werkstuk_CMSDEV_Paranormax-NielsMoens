@@ -1,0 +1,14 @@
+tabs:
+  -
+    elements:
+      -
+        fieldUid: e2d2b645-10b9-42de-93d0-ce20320b878f # Intro
+        instructions: null
+        label: null
+        required: false
+        tip: null
+        type: craft\fieldlayoutelements\CustomField
+        warning: null
+        width: 100
+    name: description
+    sortOrder: 1

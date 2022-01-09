@@ -1,0 +1,19 @@
+columnSuffix: vdzemzdh
+contentColumnType: text
+fieldGroup: 0cbe603d-0871-4e67-9fbc-66cf8120a056 # VIP
+handle: location
+instructions: ''
+name: location
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

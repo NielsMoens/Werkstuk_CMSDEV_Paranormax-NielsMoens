@@ -56,35 +56,43 @@
     </section>
 
     <section class="site-section bg-light">
-        {% if currentUser %}
-            Welcome, {{ currentUser }}!
-        {% else %}
-            <div class="alert alert-warning" role="alert">
-                This is a warning alert—check it out!
+{#        check if user has account if not give a warning#}
+{#        {% if currentUser %}#}
+{#            Welcome, {{ currentUser }}!#}
+{#        {% else %}#}
+{#            <div class="alert alert-warning" role="alert">#}
+{#                This is a warning alert—check it out!#}
+{#            </div>#}
+{#        {% endif %}#}
+
+            <div class="container">
+                <div class="row align-items-center site-hero-inner justify-content-center">
+                            <div class="col-md-8 text-center">
+                                {{ entry.storiesIntro }}
+                            </div>
+                </div>
+                <div class="row top-course">
+                    {% set stories = craft.entries.section('vip').all %}
+                    {% for vip in stories %}
+                        <div class="col-md-4 col-sm-6 col-12">
+                            <a href="{{ vip.url }}" class="course">
+                                {% set img = vip.storieImage.one() %}
+                                <img src="{{ img.getUrl({width: 750}) }}" alt=" {{ vip.storieTitle }}">
+                                <h2>{{ vip.storieTitle }}</h2>
+                                <p>{{vip.shortDescription}}</p>
+                                <a href="{{ vip.url }}" ><p>Read more ...</p></a>
+                            </a>
+                        </div>
+                    {% endfor %}
+                </div>
             </div>
-        {% endif %}
+
+
         <div class="container">
             <div class="row justify-content-center mb-5">
                 <div class="col-md-7 text-center">
-                    <h2>test</h2>
-                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum magnam illum maiores adipisci pariatur, eveniet.</p>
+                   {{ entry.videoIntro }}
                 </div>
-            </div>
-            <div class="row top-course">
-                Stories & video Channel TODO
-{#                {% set assigment = craft.entries.section('assigments').orderBy('postDate DESC').limit(20).all %}#}
-
-{#                {% for assigment in assigment %}#}
-
-{#                    <div class="col-md-4 col-sm-6 col-12">#}
-{#                        <a href="{{ assigment.url }}" class="course">#}
-{#                            {% set img = assigment.mainImage.one() %}#}
-{#                            <img src="{{ img.getUrl({width: 750}) }}" alt=" {{ img.title }}">#}
-{#                            <h2>{{ assigment.title }}</h2>#}
-{#                            <p>Read more ...</p>#}
-{#                        </a>#}
-{#                    </div>#}
-{#                {% endfor %}#}
             </div>
         </div>
     </section>

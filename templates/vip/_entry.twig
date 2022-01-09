@@ -1,0 +1,45 @@
+{% extends "_layouts/site" %}
+
+{% block content  %}
+    {% set storieImg =  entry.storieImage.one() %}
+    <section class="site-hero site-hero-innerpage overlay" data-stellar-background-ratio="0.5" style="background-image: url( {{ storieImg.url}} );">
+        <div class="container">
+            <div class="row align-items-center site-hero-inner justify-content-center">
+                <div class="col-md-8 text-center">
+                    <div class="mb-5 element-animate">
+                        <h1 class="mb-3">{{ entry.storieTitle }}</h1>
+                        <p class="post-meta">{{ entry.date|date("short") }}<a href="#">  {{ entry.authorName }}</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END section -->
+
+    <section class="site-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 blog-content">
+                    <p class="lead">{{ entry.shortDescription }}</p>
+                    {{ entry.longDescription }}
+                </div>
+                <div class="col-md-4 sidebar">
+                    {% set authImg =  entry.authorImage.one() %}
+                    <div class="sidebar-box">
+                        <img src="{{ authImg.url }}" alt="Image placeholder" class="img-fluid mb-4">
+                        <h3>{{  entry.authorName }}</h3>
+                        <p>{{ entry.authorInfo }}</p>
+                    </div>
+                    {% set locationImg =  entry.locationImage.one() %}
+                    <div class="sidebar-box">
+                        <img src="{{ locationImg.url }}" alt="Image placeholder" class="img-fluid mb-4">
+                        <h3>{{ entry.location }}</h3>
+                        <p>{{ entry.locationInfo }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+{% endblock %}

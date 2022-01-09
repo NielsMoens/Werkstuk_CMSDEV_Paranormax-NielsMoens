@@ -1,4 +1,4 @@
-dateModified: 1641680362
+dateModified: 1641689551
 email:
   fromEmail: paranormaxniels@gmail.com
   fromName: paranormax
@@ -12,6 +12,7 @@ email:
 meta:
   __names__:
     0a559508-6b03-4139-8f98-19c82aaf7325: AboutImage # AboutImage
+    00cb4e16-e087-4c39-8517-b5423484f5fb: 'author Info' # author Info
     0cbe603d-0871-4e67-9fbc-66cf8120a056: VIP # VIP
     0d7eb751-fa4e-49c0-a085-68880412e022: 'Partner Log' # Partner Log
     1b404755-5271-4148-8f5d-326e87f13a48: 'testimonial Highlighted Image' # testimonial Highlighted Image
@@ -52,14 +53,18 @@ meta:
     89b15cc2-16c9-411c-a5e0-987b6b2b9639: Mediums # Mediums
     164d812f-7ae1-4fd0-b14f-6cea8138039e: Date # Date
     275a2c43-f3fb-4d38-a696-8012131ff331: Default # Default
+    278c2db7-cdfc-4513-b25a-8e89df5e431b: 'location Image' # location Image
     306a9a21-248b-46d2-899f-070f6b159055: Status # Status
     0338e864-2b3a-445b-91e2-ed798b9ba31b: General # General
     0419cb8c-c0a4-41b9-bd68-52b17382ebb4: Partners # Partners
     748d1099-3ef0-4d54-b217-e8a613964436: 'Assigments Listing' # Assigments Listing
     752f07aa-c77b-4050-970d-0ac239ce6c80: 'Hero subtitle' # Hero subtitle
     753ee6e9-0d3e-4bbd-91dc-6593f9a5c2e0: Socials # Socials
+    832c3533-6379-41f3-a363-e81dcb84b522: 'author Image' # author Image
     920ffc3d-58e8-40e2-a927-399517a452ba: 'Social link' # Social link
     2067afc9-4057-420e-a12e-60eef59798e6: login/register # login/register
+    2558be49-5fb2-4f1d-b5ca-295db68a87ef: storieTitle # storieTitle
+    2706d90a-2168-4532-8452-43bbc38dd7dd: location # location
     3038a8c1-571e-4032-8974-26d2f75064e8: 'Platform Name' # Platform Name
     3252f27d-8a89-4fcd-813e-7bc8141f4c47: Login # Login
     5375bc6f-debc-493e-a8ea-7cc4995e8a92: StoriesImage # StoriesImage
@@ -69,6 +74,7 @@ meta:
     447027c2-9d54-4ee7-a3d4-31ca81a3ecb1: socials # socials
     868543fd-a092-4e33-9b3e-184bb8214998: footer # footer
     8510118e-a94c-474b-8c99-c7582f771711: 'Contact Form' # Contact Form
+    18122965-217d-4d25-aa2f-2c463e4b9a1d: 'location Info' # location Info
     54452110-858d-4aa6-af20-a8512e5214a5: 'video Intro' # video Intro
     a06667e8-9b29-43e0-a233-3a2df2b65891: 'Medium Image' # Medium Image
     a2f0fc69-150d-4d85-b00e-cd0941c12caf: 'Status Assigments' # Status Assigments
@@ -82,7 +88,9 @@ meta:
     b9b18a69-579d-482c-9d06-e3d0f0f59b01: 'Testimonial Highlighted Text' # Testimonial Highlighted Text
     b9c68e31-af36-42a3-a6ef-ae929d803505: Assigments # Assigments
     b9ea63f3-6f07-4bf8-9b3c-794d00de390a: About # About
+    b47efe37-e81e-4ffc-b013-401afc8e2a15: 'author Name' # author Name
     b4651624-f962-4808-9a95-350b02a936ec: 'Testimonial Highlighted Name ' # Testimonial Highlighted Name 
+    ba6b67a2-f0be-4847-b3cd-397ae40b671f: 'Stories Head' # Stories Head
     ba1001c3-692c-411a-8318-cf158f47cf71: 'MediumSkills ' # MediumSkills 
     ba776976-7f7a-4bbf-880e-ebfc6f87f5c9: 'testimonial Text' # testimonial Text
     bf12f036-a126-4659-9ee9-90f2c7bee9fe: Login # Login
@@ -104,6 +112,7 @@ meta:
     e9476706-665a-4a37-b59e-b56d25dad3ce: VIPListing # VIPListing
     eaf1cff9-b8f4-48ff-9018-364a3bc3251e: 'Long Description' # Long Description
     ebc68f43-f32f-496e-80e7-661e24c58290: 'Partner Link' # Partner Link
+    ec0b23e4-3f59-4745-9b4c-a9b76f2793ca: 'Stories Subtitle' # Stories Subtitle
     ed6c8077-664c-4ab5-8aef-90d044ce2e7e: 'Contact Form' # Contact Form
     ee654c2e-ccf3-4e37-95cd-43c47d4365af: 'Socials Intro ' # Socials Intro 
     ef98329f-cbaf-4fd1-b69d-27e839d414a7: Disclaimer # Disclaimer
@@ -124,7 +133,7 @@ plugins:
     enabled: true
     schemaVersion: 1.0.0
   freeform:
-    edition: lite
+    edition: pro
     enabled: true
     licenseKey: GT4X09XOT5BRPTVSJMLERW88
     schemaVersion: 3.5.1
@@ -227,11 +236,3 @@ system:
   retryDuration: null
   schemaVersion: 3.7.8
   timeZone: Europe/Brussels
-users:
-  allowPublicRegistration: true
-  defaultGroup: ''
-  photoSubpath: null
-  photoVolumeUid: 89a77c27-74a4-4733-84cc-fb1bba1fe585 # Uploads
-  requireEmailVerification: false
-  suspendByDefault: false
-  validateOnPublicRegistration: false

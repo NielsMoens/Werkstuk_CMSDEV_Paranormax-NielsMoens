@@ -72,6 +72,19 @@ fieldLayouts:
             width: 100
         name: Heading
         sortOrder: 3
+      -
+        elements:
+          -
+            fieldUid: fa2396d5-a92a-4342-9445-9e41ca80674f # Stories Intro
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Stories
+        sortOrder: 4
 handle: vipListing
 hasTitleField: false
 name: VIPListing

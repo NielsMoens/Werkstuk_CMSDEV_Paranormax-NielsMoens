@@ -55,6 +55,15 @@
                                 }) }}
                                 {{ user ? _self.errorList(user.getErrors('firstName')) }}
                             </div>
+                            <div class="col-md-12 form-group">
+                                <label for="intro">intro</label>
+                                {{ input('text', 'intro', user.intro ?? null, {
+                                    id: 'intro',
+                                    autocomplete: 'given-name',
+                                    class:"form-control "
+                                }) }}
+                                {{ user ? _self.errorList(user.getErrors('intro')) }}
+                            </div>
                         </div>
                         <div class="row">
                             <div class="col-md-12 form-group">

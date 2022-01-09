@@ -1,0 +1,19 @@
+columnSuffix: bxpohlii
+contentColumnType: string(240)
+fieldGroup: 0cbe603d-0871-4e67-9fbc-66cf8120a056 # VIP
+handle: authorName
+instructions: ''
+name: 'author Name'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: 60
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText
