@@ -59,7 +59,11 @@
                         } %}
                         {% set img = user.photo %}
                         <div class="media d-block feature text-center">
-                            <img src=" " alt="Image placeholder" class="mb-3">
+                            {% if img == true %}
+                            <img src=" {{ img.getUrl(cropSettings) }}" alt="Image placeholder" class="mb-3">
+                            {% else %}
+                                <img src="/web/assets/images/user.png" alt="Image placeholder" class="mb-3">
+                            {% endif %}
                             <div class="media-body">
                                 <h3 class="mt-0">{{ user.firstName }} {{ user.lastName }} </h3>
                                 {% if admin == 1 %}
