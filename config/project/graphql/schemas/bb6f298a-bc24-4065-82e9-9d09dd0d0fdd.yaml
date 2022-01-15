@@ -15,7 +15,7 @@ scope:
   - 'sections.3252f27d-8a89-4fcd-813e-7bc8141f4c47:read' # Login
   - 'entrytypes.bf12f036-a126-4659-9ee9-90f2c7bee9fe:read' # Login
   - 'sections.d4c81fbc-1744-4fab-aa75-282f6211e9a3:read' # VIP
-  - 'entrytypes.a89be08e-9c8d-4161-af5a-e99896760e4a:read' # Default
+  - 'entrytypes.a89be08e-9c8d-4161-af5a-e99896760e4a:read' # VIP
   - 'sections.e9476706-665a-4a37-b59e-b56d25dad3ce:read' # VIPListing
   - 'entrytypes.6cd563f0-7e7c-4b8f-b088-e4c4c3941f22:read' # VIPListing
   - 'volumes.89a77c27-74a4-4733-84cc-fb1bba1fe585:read' # Uploads
@@ -40,10 +40,10 @@ scope:
   - 'sections.3252f27d-8a89-4fcd-813e-7bc8141f4c47:edit' # Login
   - 'entrytypes.bf12f036-a126-4659-9ee9-90f2c7bee9fe:save' # Login
   - 'sections.d4c81fbc-1744-4fab-aa75-282f6211e9a3:edit' # VIP
-  - 'entrytypes.a89be08e-9c8d-4161-af5a-e99896760e4a:edit' # Default
-  - 'entrytypes.a89be08e-9c8d-4161-af5a-e99896760e4a:create' # Default
-  - 'entrytypes.a89be08e-9c8d-4161-af5a-e99896760e4a:save' # Default
-  - 'entrytypes.a89be08e-9c8d-4161-af5a-e99896760e4a:delete' # Default
+  - 'entrytypes.a89be08e-9c8d-4161-af5a-e99896760e4a:edit' # VIP
+  - 'entrytypes.a89be08e-9c8d-4161-af5a-e99896760e4a:create' # VIP
+  - 'entrytypes.a89be08e-9c8d-4161-af5a-e99896760e4a:save' # VIP
+  - 'entrytypes.a89be08e-9c8d-4161-af5a-e99896760e4a:delete' # VIP
   - 'sections.e9476706-665a-4a37-b59e-b56d25dad3ce:edit' # VIPListing
   - 'entrytypes.6cd563f0-7e7c-4b8f-b088-e4c4c3941f22:save' # VIPListing
   - 'volumes.89a77c27-74a4-4733-84cc-fb1bba1fe585:edit' # Uploads

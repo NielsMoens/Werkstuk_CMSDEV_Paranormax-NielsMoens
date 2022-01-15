@@ -18,7 +18,7 @@ propagationMethod: all
 siteSettings:
   2f52df08-fd1b-45f1-86de-8a6513355941: # paranormax
     enabledByDefault: true
-    hasUrls: true
-    template: vip/_entry
-    uriFormat: 'vip/{slug}'
-type: channel
+    hasUrls: false
+    template: null
+    uriFormat: null
+type: single
