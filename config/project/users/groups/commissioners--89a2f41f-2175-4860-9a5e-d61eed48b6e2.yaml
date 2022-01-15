@@ -1,3 +1,26 @@
 description: ''
 handle: commissioners
 name: Commissioners
+permissions:
+  - accesssitewhensystemisoff
+  - accesscpwhensystemisoff
+  - performupdates
+  - accessplugin-field-manager
+  - accessplugin-freeform
+  - accessplugin-mollie-payments
+  - accesscp
+  - customizesources
+  - registerusers
+  - moderateusers
+  - assignuserpermissions
+  - 'assignusergroup:89a2f41f-2175-4860-9a5e-d61eed48b6e2' # Commissioners
+  - 'assignusergroup:5f127486-245e-4929-a1d7-4644a2992151' # Mediums
+  - 'assignusergroup:0eb8c758-a8ae-404c-a775-03fa9fade7ff' # toBeApproved
+  - assignusergroups
+  - administrateusers
+  - impersonateusers
+  - editusers
+  - deleteusers
+  - 'publishentries:7af331aa-cc01-4550-8588-9b1777047454' # Assigments Listing
+  - 'editpeerentrydrafts:7af331aa-cc01-4550-8588-9b1777047454' # Assigments Listing
+  - 'editentries:7af331aa-cc01-4550-8588-9b1777047454' # Assigments Listing
