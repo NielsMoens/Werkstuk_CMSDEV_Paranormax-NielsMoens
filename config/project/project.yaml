@@ -1,4 +1,4 @@
-dateModified: 1642266114
+dateModified: 1642270923
 email:
   fromEmail: paranormaxniels@gmail.com
   fromName: paranormax
@@ -584,7 +584,7 @@ plugins:
       twitterEmailMismatch: 'Email address doesn''t match allowed Twitter domains'
       twitterRedirectUrl: null
       userActivated: 'Successfully activated user'
-      userGroup: '1'
+      userGroup: '2'
       userNotActivated: 'Please activate your account before logging in'
       userNotFound: 'We couldn''t find any matching users'
       volumeNotFound: 'We couldn''t find any matching volumes'

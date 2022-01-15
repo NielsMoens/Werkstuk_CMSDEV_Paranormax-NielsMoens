@@ -83,12 +83,6 @@
                         {% endif %}
                         <div class="row">
                             <div class="col-md-12 form-group">
-                                <label for="fields[shortDescription]">Bio</label>
-                                <input class="form-control" type="text" name="fields[shortDescription]" value="{{ user.shortDescription }}">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12 form-group">
                                 <label for="photo">Upload a new photo</label>
                                 {{ input('file', 'photo', null, {
                                     id: 'photo',
@@ -97,6 +91,13 @@
                                 }) }}
                             </div>
                         </div>
+                        <div class="row">
+                            <div class="col-md-12 form-group">
+                                <label for="fields[shortDescription]">Bio</label>
+                                <input class="form-control" type="text" name="fields[shortDescription]" value="{{ user.shortDescription }}">
+                            </div>
+                        </div>
+
 
                         {% if not craft.app.config.general.useEmailAsUsername %}
                             <label for="username">Username</label>
