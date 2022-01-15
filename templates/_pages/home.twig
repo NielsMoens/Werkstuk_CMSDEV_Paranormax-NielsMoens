@@ -231,7 +231,7 @@
                 <h2 class="text-white">{{ entry.statsTitle }}</h2>
                 </div>
             </div>
-
+ 
             {% set usersCount = craft.users().group("Mediums").all()|length%}
             {% set testimonialsCount = testimonials|length + 1 %}
             {% set partnersCount = partners|length  %}
