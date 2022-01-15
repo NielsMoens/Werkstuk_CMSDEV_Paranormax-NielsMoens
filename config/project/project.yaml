@@ -1,4 +1,4 @@
-dateModified: 1642282826
+dateModified: 1642284177
 email:
   fromEmail: paranormaxniels@gmail.com
   fromName: paranormax
@@ -595,7 +595,7 @@ plugins:
     licenseKey: 5YE3I9S4SMLMKS8A4LFDDSC4
     schemaVersion: 1.4.0
     settings:
-      apiKey: test_BRRpUHJGQazsrRKhwPDyvAquW8A2en
+      apiKey: test_hPhEgvBxMBH3vHgnnAzNd4pqqdfpGv
   redactor:
     edition: standard
     enabled: true
