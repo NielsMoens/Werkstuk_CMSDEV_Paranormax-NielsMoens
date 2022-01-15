@@ -10,7 +10,7 @@
             {{ ul(errors, {class: 'errors'}) }}
         {% endif %}
     {% endmacro %}
-      
+
     {% set image =  entry.heroImage.one() %}
     <section class="site-hero overlay" data-stellar-background-ratio="0.5" style="background-image: url({{ image.url }});">
         <div class="container">

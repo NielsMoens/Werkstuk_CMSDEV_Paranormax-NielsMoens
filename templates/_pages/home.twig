@@ -46,13 +46,10 @@
                     <h2>{{ entry.mediumTitle }}</h2>
                 </div>
             </div>
+
             <section class="school-features text-dark d-flex">
                 <div class="inner">
-{#                    thanks abdil for the help with the filtering#}
-                    {% set groups = craft.userGroups.getAllGroups() %}
-                    {% for selectedGroup in groups  %}
-                    {% if selectedGroup == 'Mediums' %}
-                    {% set users = craft.users.group(selectedGroup.handle) %}
+                    {% set users = craft.users().group("Mediums").all()%}
                     {% for user in users %}
                         {% set admin=user.admin %}
                         {% set cropSettings = {
@@ -73,14 +70,12 @@
                                 {% if admin == 1 %}
                                     <p>Leader</p>
                                 {% else %}
-                                    <p>member</p>
+                                    <p>Medium</p>
                                 {% endif %}
                                 <p>{{user.shortDescription}}</p>
                             </div>
 {#                            <a href="{{ medium.url }}" class="course">Learn more ...</a>#}
                         </div>
-                    {% endfor %}
-                    {% endif %}
                     {% endfor %}
                 </div>
             </section>
@@ -236,7 +231,8 @@
                 <h2 class="text-white">{{ entry.statsTitle }}</h2>
                 </div>
             </div>
-            {% set usersCount = craft.users().all()|length %}
+
+            {% set usersCount = craft.users().group("Mediums").all()|length%}
             {% set testimonialsCount = testimonials|length + 1 %}
             {% set partnersCount = partners|length  %}
             {% set assigmentsCount = craft.entries.section('Assigments').all|length  %}
