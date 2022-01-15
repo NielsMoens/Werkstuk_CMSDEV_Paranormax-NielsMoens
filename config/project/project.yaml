@@ -1,4 +1,4 @@
-dateModified: 1641759133
+dateModified: 1642207222
 email:
   fromEmail: paranormaxniels@gmail.com
   fromName: paranormax
@@ -29,6 +29,7 @@ meta:
     5c2322a9-1a7a-4489-b80c-bcea9c81af90: 'testimonial Image' # testimonial Image
     5da2605a-22e9-4a80-ad5c-a18fb0ed8074: login/register # login/register
     5deff13c-64d0-4144-bb2a-312a4393745a: 'Social Image' # Social Image
+    5f127486-245e-4929-a1d7-4644a2992151: Mediums # Mediums
     6cd563f0-7e7c-4b8f-b088-e4c4c3941f22: VIPListing # VIPListing
     6d8e3673-e879-4c23-9bda-6277baa77d95: 'Full Name' # Full Name
     7af331aa-cc01-4550-8588-9b1777047454: 'Assigments Listing' # Assigments Listing
@@ -40,6 +41,7 @@ meta:
     9da56d12-3869-42e3-8b17-4e298c8b5f7f: 'Contact Form' # Contact Form
     9e77f2bb-3de8-4c3e-b6bb-31e5367c9adc: paranormax # paranormax
     26c65efd-5ee8-452f-a8dc-a8c1ef35b9d8: 'Short description' # Short description
+    28de25d1-8d6b-4790-bc2a-0e4dbb95c26d: Thanks # Thanks
     36f222a3-dc9a-4b2a-be51-a657891fd8ba: Homepage # Homepage
     44a0bf88-00fb-4d84-b587-0b174836fe3c: header # header
     44a2523a-0173-47b3-8361-4f45a256f4da: Contact # Contact
@@ -49,6 +51,7 @@ meta:
     76c62145-f4a9-48f9-8023-889655f124ee: 'Privacy Policy' # Privacy Policy
     77d7adb5-9953-4236-b115-c50673563aea: New # New
     87faf1ba-6b1d-4a19-aa60-42c7b98fb2e4: Menu # Menu
+    89a2f41f-2175-4860-9a5e-d61eed48b6e2: Commissioners # Commissioners
     89a77c27-74a4-4733-84cc-fb1bba1fe585: Uploads # Uploads
     164d812f-7ae1-4fd0-b14f-6cea8138039e: Date # Date
     275a2c43-f3fb-4d38-a696-8012131ff331: Default # Default
@@ -93,6 +96,7 @@ meta:
     ba6b67a2-f0be-4847-b3cd-397ae40b671f: 'Stories Head' # Stories Head
     ba1001c3-692c-411a-8318-cf158f47cf71: 'MediumSkills ' # MediumSkills 
     ba776976-7f7a-4bbf-880e-ebfc6f87f5c9: 'testimonial Text' # testimonial Text
+    bb6f298a-bc24-4065-82e9-9d09dd0d0fdd: mainSchema # mainSchema
     bf12f036-a126-4659-9ee9-90f2c7bee9fe: Login # Login
     c39d048e-aca2-45c9-809c-421d40bf94c4: 'Hero image' # Hero image
     c60eeba3-1524-4c73-b4e0-f26aa4d1957e: Assigments # Assigments
@@ -110,6 +114,7 @@ meta:
     e2d2b645-10b9-42de-93d0-ce20320b878f: Intro # Intro
     e691f341-1d87-4695-ba4a-b2bd2d47cdd1: Socials # Socials
     e3038a78-b860-4e8b-9de0-dbb632d23cfc: 'Medium Title ' # Medium Title 
+    e6838b9e-34b6-4dd4-bdc0-61ecbaa9594f: Thanks # Thanks
     e9476706-665a-4a37-b59e-b56d25dad3ce: VIPListing # VIPListing
     eaf1cff9-b8f4-48ff-9018-364a3bc3251e: 'Long Description' # Long Description
     ebc68f43-f32f-496e-80e7-661e24c58290: 'Partner Link' # Partner Link
@@ -121,10 +126,6 @@ meta:
     f8189118-620a-43f9-90a8-ef38b4f1a021: 'About Title ' # About Title 
     fa2396d5-a92a-4342-9445-9e41ca80674f: 'Stories Intro' # Stories Intro
 plugins:
-  craft-dark-mode:
-    edition: standard
-    enabled: true
-    schemaVersion: 1.1.0
   dumper:
     edition: standard
     enabled: true
@@ -215,6 +216,378 @@ plugins:
       twigInHtml: true
       twigInHtmlIsolatedMode: true
       updateSearchIndexes: '1'
+  graphql-authentication:
+    edition: standard
+    enabled: true
+    licenseKey: 0R7SNZ1DYCDL8CITSD8QZ36T
+    schemaVersion: 1.1.0
+    settings:
+      activationEmailSent: 'You will receive an email if it matches an account in our system'
+      allowRegistration: '1'
+      allowedFacebookDomains: null
+      allowedGoogleDomains: null
+      allowedTwitterDomains: null
+      appleClientId: null
+      appleClientSecret: null
+      appleRedirectUrl: null
+      appleServiceId: null
+      appleServiceSecret: null
+      assetMutations:
+        __assoc__:
+          -
+            - uploads
+            - ''
+      assetNotFound: 'We couldn''t find any matching assets'
+      assetQueries:
+        __assoc__:
+          -
+            - uploads
+            - ''
+      emailNotInScope: 'No email in scope'
+      entryMutations:
+        __assoc__:
+          -
+            - assigments
+            - ''
+          -
+            - vip
+            - ''
+      entryNotFound: 'We couldn''t find any matching entries'
+      entryQueries:
+        __assoc__:
+          -
+            - assigments
+            - ''
+          -
+            - vip
+            - ''
+      facebookAppId: null
+      facebookAppSecret: null
+      facebookEmailMismatch: 'Email address doesn''t match allowed Facebook domains'
+      facebookRedirectUrl: null
+      fieldRestrictions:
+        __assoc__:
+          -
+            - schema-1
+            -
+              __assoc__:
+                -
+                  - aboutTitle
+                  - queryMutate
+                -
+                  - aboutImage
+                  - queryMutate
+                -
+                  - aboutIntro
+                  - queryMutate
+                -
+                  - assigmentImage
+                  - queryMutate
+                -
+                  - authorImage
+                  - queryMutate
+                -
+                  - authorInfo
+                  - queryMutate
+                -
+                  - authorName
+                  - queryMutate
+                -
+                  - date
+                  - queryMutate
+                -
+                  - vipdate
+                  - queryMutate
+                -
+                  - disclaimer
+                  - queryMutate
+                -
+                  - heroImage
+                  - queryMutate
+                -
+                  - heroSubtitle
+                  - queryMutate
+                -
+                  - heroTitle
+                  - queryMutate
+                -
+                  - heroButton
+                  - queryMutate
+                -
+                  - intro
+                  - queryMutate
+                -
+                  - location
+                  - queryMutate
+                -
+                  - locationImage
+                  - queryMutate
+                -
+                  - locationInfo
+                  - queryMutate
+                -
+                  - longDescription
+                  - queryMutate
+                -
+                  - viplongDescription
+                  - queryMutate
+                -
+                  - mainImage
+                  - queryMutate
+                -
+                  - vipmainImage
+                  - queryMutate
+                -
+                  - mediumDescription
+                  - queryMutate
+                -
+                  - mediumImage
+                  - queryMutate
+                -
+                  - mediumTitle
+                  - queryMutate
+                -
+                  - mediumSkills
+                  - queryMutate
+                -
+                  - menu
+                  - queryMutate
+                -
+                  - partners
+                  - queryMutate
+                -
+                  - privacyPolicy
+                  - queryMutate
+                -
+                  - shortDescription
+                  - queryMutate
+                -
+                  - vipshortDescription
+                  - queryMutate
+                -
+                  - socials
+                  - queryMutate
+                -
+                  - socialsIntro
+                  - queryMutate
+                -
+                  - statsTitle
+                  - queryMutate
+                -
+                  - assigmentStatus
+                  - queryMutate
+                -
+                  - storiesHead
+                  - queryMutate
+                -
+                  - storiesIntro
+                  - queryMutate
+                -
+                  - storiesSubtitle
+                  - queryMutate
+                -
+                  - storieImage
+                  - queryMutate
+                -
+                  - storieTitle
+                  - queryMutate
+                -
+                  - testimonialHighlightedImage
+                  - queryMutate
+                -
+                  - testimonialHighlightedName
+                  - queryMutate
+                -
+                  - testimonialHighlightedText
+                  - queryMutate
+                -
+                  - testimonials
+                  - queryMutate
+                -
+                  - testimonialsTitle
+                  - queryMutate
+                -
+                  - videoIntro
+                  - queryMutate
+          -
+            - schema-2
+            -
+              __assoc__:
+                -
+                  - aboutTitle
+                  - queryMutate
+                -
+                  - aboutImage
+                  - queryMutate
+                -
+                  - aboutIntro
+                  - queryMutate
+                -
+                  - assigmentImage
+                  - queryMutate
+                -
+                  - authorImage
+                  - queryMutate
+                -
+                  - authorInfo
+                  - queryMutate
+                -
+                  - authorName
+                  - queryMutate
+                -
+                  - date
+                  - queryMutate
+                -
+                  - vipdate
+                  - queryMutate
+                -
+                  - disclaimer
+                  - queryMutate
+                -
+                  - heroImage
+                  - queryMutate
+                -
+                  - heroSubtitle
+                  - queryMutate
+                -
+                  - heroTitle
+                  - queryMutate
+                -
+                  - heroButton
+                  - queryMutate
+                -
+                  - intro
+                  - queryMutate
+                -
+                  - location
+                  - queryMutate
+                -
+                  - locationImage
+                  - queryMutate
+                -
+                  - locationInfo
+                  - queryMutate
+                -
+                  - longDescription
+                  - queryMutate
+                -
+                  - viplongDescription
+                  - queryMutate
+                -
+                  - mainImage
+                  - queryMutate
+                -
+                  - vipmainImage
+                  - queryMutate
+                -
+                  - mediumDescription
+                  - queryMutate
+                -
+                  - mediumImage
+                  - queryMutate
+                -
+                  - mediumTitle
+                  - queryMutate
+                -
+                  - mediumSkills
+                  - queryMutate
+                -
+                  - menu
+                  - queryMutate
+                -
+                  - partners
+                  - queryMutate
+                -
+                  - privacyPolicy
+                  - queryMutate
+                -
+                  - shortDescription
+                  - queryMutate
+                -
+                  - vipshortDescription
+                  - queryMutate
+                -
+                  - socials
+                  - queryMutate
+                -
+                  - socialsIntro
+                  - queryMutate
+                -
+                  - statsTitle
+                  - queryMutate
+                -
+                  - assigmentStatus
+                  - queryMutate
+                -
+                  - storiesHead
+                  - queryMutate
+                -
+                  - storiesIntro
+                  - queryMutate
+                -
+                  - storiesSubtitle
+                  - queryMutate
+                -
+                  - storieImage
+                  - queryMutate
+                -
+                  - storieTitle
+                  - queryMutate
+                -
+                  - testimonialHighlightedImage
+                  - queryMutate
+                -
+                  - testimonialHighlightedName
+                  - queryMutate
+                -
+                  - testimonialHighlightedText
+                  - queryMutate
+                -
+                  - testimonials
+                  - queryMutate
+                -
+                  - testimonialsTitle
+                  - queryMutate
+                -
+                  - videoIntro
+                  - queryMutate
+      forbiddenField: 'User doesn''t have permission to access requested field(s)'
+      forbiddenMutation: 'User doesn''t have permission to perform this mutation'
+      googleClientId: null
+      googleEmailMismatch: 'Email address doesn''t match allowed Google domains'
+      googleTokenIdInvalid: 'Invalid Google Token ID'
+      granularSchemas: null
+      invalidEmailAddress: 'Invalid email address'
+      invalidHeader: 'Invalid Authorization Header'
+      invalidJwtSecretKey: 'Invalid JWT Secret Key'
+      invalidLogin: 'We couldn''t log you in with the provided details'
+      invalidOauthToken: 'Invalid OAuth Token'
+      invalidPasswordMatch: 'New passwords do not match'
+      invalidPasswordUpdate: 'We couldn''t update the password with the provided details'
+      invalidRefreshToken: 'Invalid Refresh Token'
+      invalidRequest: 'Cannot validate request'
+      invalidSchema: 'No schema has been set for this user group'
+      invalidUserUpdate: 'We couldn''t update the user with the provided details'
+      jwtExpiration: '30 minutes'
+      jwtRefreshExpiration: '3 months'
+      jwtSecretKey: ODUxEV2MKBZ2ZAsrxyih9MP4LrnrhIg1
+      passwordResetSent: 'You will receive an email if it matches an account in our system'
+      passwordSaved: 'Successfully saved password'
+      passwordUpdated: 'Successfully updated password'
+      permissionType: single
+      sameSitePolicy: strict
+      schemaId: '2'
+      siteId: null
+      tokenNotFound: 'We couldn''t find any matching tokens'
+      twitterApiKey: null
+      twitterApiKeySecret: null
+      twitterEmailMismatch: 'Email address doesn''t match allowed Twitter domains'
+      twitterRedirectUrl: null
+      userActivated: 'Successfully activated user'
+      userGroup: '1'
+      userNotActivated: 'Please activate your account before logging in'
+      userNotFound: 'We couldn''t find any matching users'
+      volumeNotFound: 'We couldn''t find any matching volumes'
   mollie-payments:
     edition: standard
     enabled: true

@@ -10,7 +10,7 @@
                 </div>
             </div>
             <div class="row top-course">
-                {% set assigment = craft.entries.section('assigments').orderBy('postDate DESC').limit(20).all %}
+                {% set assigment = craft.entries.section('Assigments').orderBy('postDate DESC').limit(20).all %}
                 {% for assigment in assigment %}
                     <div class="col-md-4 col-sm-6 col-12">
                         <a href="{{ assigment.url }}" class="course">

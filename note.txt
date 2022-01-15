@@ -1,0 +1,6 @@
+in de ngix config -> index goe zetten
+php -> index.php
+chmod 777 -R storage/ en web/
+gmb en bbc math
+add to php ini extention
+restart php en nginx

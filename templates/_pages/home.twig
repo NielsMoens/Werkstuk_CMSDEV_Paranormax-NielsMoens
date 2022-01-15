@@ -48,7 +48,11 @@
             </div>
             <section class="school-features text-dark d-flex">
                 <div class="inner">
-                    {% set users = craft.users().all() %}
+{#                    thanks abdil for the help with the filtering#}
+                    {% set groups = craft.userGroups.getAllGroups() %}
+                    {% for selectedGroup in groups  %}
+                    {% if selectedGroup == 'Mediums' %}
+                    {% set users = craft.users.group(selectedGroup.handle) %}
                     {% for user in users %}
                         {% set admin=user.admin %}
                         {% set cropSettings = {
@@ -75,6 +79,8 @@
                             </div>
 {#                            <a href="{{ medium.url }}" class="course">Learn more ...</a>#}
                         </div>
+                    {% endfor %}
+                    {% endif %}
                     {% endfor %}
                 </div>
             </section>
@@ -233,7 +239,7 @@
             {% set usersCount = craft.users().all()|length %}
             {% set testimonialsCount = testimonials|length + 1 %}
             {% set partnersCount = partners|length  %}
-            {% set assigmentsCount = craft.entries.section('assigments').all|length  %}
+            {% set assigmentsCount = craft.entries.section('Assigments').all|length  %}
             <div class="row">
                 <div class="col-xl-3 col-sm-6 col-12 mb-4">
                     <div class="card">

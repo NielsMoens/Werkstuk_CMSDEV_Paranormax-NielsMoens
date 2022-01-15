@@ -1,0 +1,5 @@
+description: ''
+handle: mediums
+name: Mediums
+permissions:
+  - 'editentries:7af331aa-cc01-4550-8588-9b1777047454' # Assigments Listing
