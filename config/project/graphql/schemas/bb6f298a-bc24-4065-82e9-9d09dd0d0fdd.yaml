@@ -8,6 +8,8 @@ scope:
   - 'entrytypes.275a2c43-f3fb-4d38-a696-8012131ff331:read' # Default
   - 'sections.7af331aa-cc01-4550-8588-9b1777047454:read' # Assigments Listing
   - 'entrytypes.748d1099-3ef0-4d54-b217-e8a613964436:read' # Assigments Listing
+  - 'sections.0e749d4d-86f1-47e8-980b-b9bb6a7de987:read' # Assignment Queue
+  - 'entrytypes.547ae5e9-df8b-4acf-993d-2ef4ddf4b748:read' # Assignment Queue
   - 'sections.1bb081cd-1fe3-48f4-ba2a-5bd719085fe7:read' # Contact
   - 'entrytypes.44a2523a-0173-47b3-8361-4f45a256f4da:read' # Contact
   - 'sections.f401e857-8c7b-48ac-ada9-8f65ca666d4a:read' # Homepage
@@ -33,6 +35,11 @@ scope:
   - 'entrytypes.275a2c43-f3fb-4d38-a696-8012131ff331:delete' # Default
   - 'sections.7af331aa-cc01-4550-8588-9b1777047454:edit' # Assigments Listing
   - 'entrytypes.748d1099-3ef0-4d54-b217-e8a613964436:save' # Assigments Listing
+  - 'sections.0e749d4d-86f1-47e8-980b-b9bb6a7de987:edit' # Assignment Queue
+  - 'entrytypes.547ae5e9-df8b-4acf-993d-2ef4ddf4b748:edit' # Assignment Queue
+  - 'entrytypes.547ae5e9-df8b-4acf-993d-2ef4ddf4b748:create' # Assignment Queue
+  - 'entrytypes.547ae5e9-df8b-4acf-993d-2ef4ddf4b748:save' # Assignment Queue
+  - 'entrytypes.547ae5e9-df8b-4acf-993d-2ef4ddf4b748:delete' # Assignment Queue
   - 'sections.1bb081cd-1fe3-48f4-ba2a-5bd719085fe7:edit' # Contact
   - 'entrytypes.44a2523a-0173-47b3-8361-4f45a256f4da:save' # Contact
   - 'sections.f401e857-8c7b-48ac-ada9-8f65ca666d4a:edit' # Homepage

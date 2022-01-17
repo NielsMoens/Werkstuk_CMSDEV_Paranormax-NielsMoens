@@ -1,5 +1,5 @@
 fieldLayouts:
-  d9e8d342-deef-4b95-9dbb-ba009be50c10:
+  74ffaad7-00cd-449e-9f7b-32760811e870:
     tabs:
       -
         elements:
@@ -26,8 +26,12 @@ fieldLayouts:
             type: craft\fieldlayoutelements\EntryTitleField
             warning: null
             width: 100
+        name: Content
+        sortOrder: 1
+      -
+        elements:
           -
-            fieldUid: 7b2086fd-9923-4004-a271-fd82dd752781 # Main image
+            fieldUid: 2558be49-5fb2-4f1d-b5ca-295db68a87ef # storieTitle
             instructions: null
             label: null
             required: false
@@ -36,34 +40,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 1f7e54e6-a0c3-4c13-9628-82f831ea8664 # Date
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
-          -
-            fieldUid: 306a9a21-248b-46d2-899f-070f6b159055 # Status
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
-          -
-            fieldUid: 3f2a0ec6-dde7-4cc8-9f9e-53b97721984d # Assigment Image
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
-          -
-            fieldUid: 055b4ea0-bead-4502-bef8-136324a6ed49 # Short description
+            fieldUid: 5375bc6f-debc-493e-a8ea-7cc4995e8a92 # StoriesImage
             instructions: null
             label: null
             required: false
@@ -81,7 +58,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 1b0c6e6c-8694-4830-9ea8-e818927bfa95 # assignee
+            fieldUid: 055b4ea0-bead-4502-bef8-136324a6ed49 # Short description
             instructions: null
             label: null
             required: false
@@ -89,13 +66,76 @@ fieldLayouts:
             type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 100
-        name: Content
-        sortOrder: 1
-handle: default
-hasTitleField: true
-name: Default
-section: c60eeba3-1524-4c73-b4e0-f26aa4d1957e # Assigments
+          -
+            fieldUid: 164d812f-7ae1-4fd0-b14f-6cea8138039e # Date
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 832c3533-6379-41f3-a363-e81dcb84b522 # author Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: b47efe37-e81e-4ffc-b013-401afc8e2a15 # author Name
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 00cb4e16-e087-4c39-8517-b5423484f5fb # author Info
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 278c2db7-cdfc-4513-b25a-8e89df5e431b # location Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 2706d90a-2168-4532-8452-43bbc38dd7dd # location
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 18122965-217d-4d25-aa2f-2c463e4b9a1d # location Info
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: 'Stories '
+        sortOrder: 2
+handle: vip
+hasTitleField: false
+name: VIP
+section: d4c81fbc-1744-4fab-aa75-282f6211e9a3 # VIP
 sortOrder: 1
-titleFormat: null
+titleFormat: '{section.name|raw}'
 titleTranslationKeyFormat: null
 titleTranslationMethod: site

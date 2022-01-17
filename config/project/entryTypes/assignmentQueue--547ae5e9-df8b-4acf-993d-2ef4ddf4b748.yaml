@@ -1,0 +1,65 @@
+fieldLayouts:
+  74986b8b-55c1-4ffb-bb60-f398f99b39ee:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: ''
+            label: __blank__
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 100
+          -
+            fieldUid: 3b50db7c-d846-41f4-ade9-8c219bf87446 # assignment
+            instructions: ''
+            label: ''
+            required: ''
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 1b0c6e6c-8694-4830-9ea8-e818927bfa95 # assignee
+            instructions: ''
+            label: ''
+            required: ''
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 0ea2cfba-eeb2-48f8-88a9-8572cf882379 # Assignee Status
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: assignmentQueue
+        sortOrder: 1
+handle: assignmentQueue
+hasTitleField: false
+name: 'Assignment Queue'
+section: 0e749d4d-86f1-47e8-980b-b9bb6a7de987 # Assignment Queue
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

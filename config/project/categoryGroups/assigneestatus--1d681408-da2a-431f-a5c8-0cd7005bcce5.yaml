@@ -1,0 +1,41 @@
+defaultPlacement: end
+fieldLayouts:
+  d94993d5-110e-46cf-81fb-4a30a488315e:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: assigneestatus
+name: AssigneeStatus
+siteSettings:
+  2f52df08-fd1b-45f1-86de-8a6513355941: # paranormax
+    hasUrls: true
+    template: null
+    uriFormat: 'assigneestatus/{slug}'
+structure:
+  maxLevels: null
+  uid: 37a6ec91-55d0-4a75-a327-036b3679a305

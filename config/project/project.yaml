@@ -1,4 +1,4 @@
-dateModified: 1642284177
+dateModified: 1642371904
 email:
   fromEmail: paranormaxniels@gmail.com
   fromName: paranormax
@@ -15,13 +15,18 @@ meta:
     00cb4e16-e087-4c39-8517-b5423484f5fb: 'author Info' # author Info
     0cbe603d-0871-4e67-9fbc-66cf8120a056: VIP # VIP
     0d7eb751-fa4e-49c0-a085-68880412e022: 'Partner Log' # Partner Log
+    0e749d4d-86f1-47e8-980b-b9bb6a7de987: 'Assignment Queue' # Assignment Queue
+    0ea2cfba-eeb2-48f8-88a9-8572cf882379: 'Assignee Status' # Assignee Status
     0eb8c758-a8ae-404c-a775-03fa9fade7ff: toBeApproved # toBeApproved
+    1b0c6e6c-8694-4830-9ea8-e818927bfa95: assignee # assignee
     1b404755-5271-4148-8f5d-326e87f13a48: 'testimonial Highlighted Image' # testimonial Highlighted Image
     1bb081cd-1fe3-48f4-ba2a-5bd719085fe7: Contact # Contact
     1d516ff2-714f-46d2-9cb4-2f6df535a61c: New # New
+    1d681408-da2a-431f-a5c8-0cd7005bcce5: AssigneeStatus # AssigneeStatus
     1f7e54e6-a0c3-4c13-9628-82f831ea8664: Date # Date
     1f69ab69-0e1c-4e6a-b5f0-7db717e39730: Testimonials # Testimonials
     2f52df08-fd1b-45f1-86de-8a6513355941: paranormax # paranormax
+    3b50db7c-d846-41f4-ade9-8c219bf87446: assignment # assignment
     3d2769a4-1306-4626-948f-8a4fb8096765: longDescription # longDescription
     3f2a0ec6-dde7-4cc8-9f9e-53b97721984d: 'Assigment Image' # Assigment Image
     3fb22130-5749-462f-91d7-b2d5c71aa674: 'Main image' # Main image
@@ -60,6 +65,7 @@ meta:
     306a9a21-248b-46d2-899f-070f6b159055: Status # Status
     0338e864-2b3a-445b-91e2-ed798b9ba31b: General # General
     0419cb8c-c0a4-41b9-bd68-52b17382ebb4: Partners # Partners
+    547ae5e9-df8b-4acf-993d-2ef4ddf4b748: 'Assignment Queue' # Assignment Queue
     673dc4ee-916b-4f4f-bf05-bb70b83e98b5: Stats # Stats
     748d1099-3ef0-4d54-b217-e8a613964436: 'Assigments Listing' # Assigments Listing
     752f07aa-c77b-4050-970d-0ac239ce6c80: 'Hero subtitle' # Hero subtitle

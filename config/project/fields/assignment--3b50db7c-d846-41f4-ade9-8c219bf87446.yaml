@@ -1,0 +1,22 @@
+columnSuffix: csltlxnc
+contentColumnType: string
+fieldGroup: b9c68e31-af36-42a3-a6ef-ae929d803505 # Assigments
+handle: assignment
+instructions: ''
+name: assignment
+searchable: false
+settings:
+  allowSelfRelations: false
+  limit: ''
+  localizeRelations: false
+  selectionLabel: ''
+  showSiteMenu: true
+  source: null
+  sources:
+    - 'section:c60eeba3-1524-4c73-b4e0-f26aa4d1957e' # Assigments
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Entries
