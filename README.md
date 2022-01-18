@@ -17,9 +17,9 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 First, run the development server:
 
 ```bash
-npm run dev
-# or
-yarn dev
+php -S localhost:3000
+# and
+I used XAMPP for the Mysql Server 
 ```
 Wegens het grote succes en nationale bekendheid van Paranormax werd intern beslist om een uitzendbureau te starten.
 Er is immers nood aan een vertrouwelijke en veilige organisatie waar je pro mediums kan vinden.
