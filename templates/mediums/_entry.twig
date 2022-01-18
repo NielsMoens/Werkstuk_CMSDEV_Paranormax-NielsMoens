@@ -1,8 +1,10 @@
 {% extends "_layouts/site" %}
 
-{% block content  %}
+{#
+    Mediums listing block from the home page
+#}
 
-{#    craft.users has no uri... TODO figure out how to do this    #}
+{% block content  %}
     {% set mediumImage = entry.mediumImage.one() %}
     <section class="site-hero overlay" data-stellar-background-ratio="0.5" style="background-image: url({{ mediumImage.url }});">
         <div class="container">

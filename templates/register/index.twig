@@ -1,5 +1,9 @@
 {% extends "_layouts/site" %}
 
+{#
+    Register page content
+#}
+
 {% block content %}
     {% macro errorList(errors) %}
         {% if errors %}
@@ -22,7 +26,6 @@
         </div>
     </section>
 
-    <!-- END section -->
 
     <section class="site-section bg-light">
         <div class="container">
@@ -109,28 +112,6 @@
             </div>
         </div>
     </section>
-
-{#<form method="post" accept-charset="UTF-8">#}
-{#    {{ csrfInput() }}#}
-{#    {{ actionInput('users/login') }}#}
-
-{#    <label for="loginName">Username or email</label>#}
-{#    {{ input('text', 'loginName', craft.app.user.rememberedUsername, {#}
-{#        id: 'loginName',#}
-{#        autocomplete: 'username'#}
-{#    }) }}#}
-
-{#    <label for="password">Password</label>#}
-{#    {{ input('password', 'password', null, {#}
-{#        id: 'password',#}
-{#    }) }}#}
-
-{#    <button type="submit">Login</button>#}
-
-{#    {% if errorMessage is defined %}#}
-{#        <p>{{ errorMessage }}</p>#}
-{#    {% endif %}#}
-{#</form>#}
 {% endblock %}
 
 
